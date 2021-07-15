@@ -19,6 +19,6 @@ Gain monopolies, gold, and run a process to get to victory.
 
 ## Endgame Integration
 To better incorporate these new features, there are tweaks to existing game systems.
-2 New Wonders and 3 New World Congress proposals.
+2 New Wonders and 3 New World Congress proposals have been added.
 Order, as an isolationist tree, struggles with Cultural Victory, so it has a new emphasis on Economic Victory, with four of its tenets reworked.
 Additionally, a religion rework allows for more interesting religion gameplay for the new Victory.
