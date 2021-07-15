@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/15/2013 9:09:09 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPECIALIST_FARMER_STRATEGY">
+			<Text>Create Farmers to increase a city's [ICON_FOOD] Food output and to speed the creation of Great Farmers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_FARMER">
+			<Text>Farmer</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_FARMER_SLOTS">
+			<Text>Farmer Slots:</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_FARMER_TITLE">
+			<Text>Great Farmer Points:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_PRIEST_STRATEGY">
+			<Text>Create Priests to increase your civilization's [ICON_PEACE] Faith output and to speed the creation of Great Prophets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_PRIEST">
+			<Text>Priest</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_PRIEST_SLOTS">
+			<Text>Priest Slots:</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_PRIEST_TITLE">
+			<Text>Great Priest Points:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GENERALIST_STRATEGY">
+			<Text>Generalists procude a little of everything [ICON_FOOD][ICON_PRODUCTION][ICON_GOLD][ICON_CULTURE][ICON_RESEARCH][ICON_PEACE].  They do not contribute to Great People.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GENERALIST">
+			<Text>Generalist</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GENERALIST_SLOTS">
+			<Text>Generalist Slots:</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GENERALIST_TITLE">
+			<Text>Great Generalist Points:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MEGACHURCH">
+			<Text>Megachurch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MEGACHURCH_STRATEGY">
+			<Text>The Megachurch provides [ICON_HAPPINESS_1] happiness [ICON_CULTURE] culture and [ICON_PEACE] Faith.  It also provides 2 Priest Slots.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MEGACHURCH_TEXT">
+			<Text>
+				A megachurch is a church having 2,000 or more in average weekend attendance. The Hartford Institute's database lists more than 1,300 such Protestant churches in the United States. According to that data, approximately 50 churches on the list have attendance ranging from 10,000 to 47,000. While 3,000 individual Catholic parishes (churches) have 2,000 or more attendants for an average Sunday Mass, these churches are not seen as part of the megachurch movement.[NEWLINE][NEWLINE]The origins of the megachurch movement, with a large number of local congregants who return on a weekly basis can be traced to the 1950s. There were large churches earlier in history, but they were considerably rarer. Examples include Charles Spurgeon's Baptist Metropolitan Tabernacle in London which attracted 5,000 weekly for years in the late 19th century, and religious broadcaster Aimee Semple McPherson's Angelus Temple in Los Angeles, which was similarly large. The advent of television in the 1950s, and the Internet in the 1990s and 2000s have been seen as a motivator for megachurches as megachurch services are often broadcast.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STATE_FAIR">
+			<Text>State Fair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STATE_FAIR_STRATEGY">
+			<Text>The State Fair provides 2 [ICON_HAPPINESS_1] happiness, 1 [ICON_CULTURE] culture, and 2 [ICON_FOOD] Food.  It also provides 2 Farmer Slots.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STATE_FAIR_TEXT">
+			<Text>
+				A state fair is an annual competitive and recreational gathering of a U.S. state's population, usually held in late summer or early fall. It is a larger version of a county fair, often including only exhibits or competitors that have won in their categories at the more-local county fairs.[NEWLINE][NEWLINE]State fairs began in the nineteenth century for the purpose of promoting state agriculture, through competitive exhibitions of livestock and display of farm products. As the U.S. evolved from a predominantly agrarian to an industrial society in the twentieth century, modern state fairs have expanded to include carnival amusement rides and games, display of industrial products, automobile racing, and entertainment such as musical concerts. Large fairs can admit more than a million visitors over the course of a week or two. The first U.S. state fair was that of New York, held in 1841 in Syracuse, and has been held annually to the present year. The second state fair was in Detroit, Michigan.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY_NEW">
+			<Text>Monasteries increase a city's cultural output if the city is near to improved [ICON_RES_INCENSE] Incense and/or [ICON_RES_WINE] Wine resources. Adds one Priest Slot. The Monastery cannot be built unless the city has such an improved resource nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COMMUNITY_COLLEGE">
+			<Text>Community College</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COMMUNITY_COLLEGE_STRATEGY">
+			<Text>The Community College provides 2 Generalist Slots.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COMMUNITY_COLLEGE_TEXT">
+			<Text>
+				In the United States, community colleges, sometimes called junior colleges, technical colleges, or city colleges, are primarily two-year public institutions providing higher education and lower-level tertiary education, granting certificates, diplomas, and associate's degrees. Many also offer continuing and adult education.[NEWLINE][NEWLINE]After graduating from a community college, some students transfer to a four-year liberal arts college or university for two to three years to complete a bachelor's degree.[NEWLINE][NEWLINE]Before the 1970s, community colleges in the United States were more commonly referred to as junior colleges, and that term is still used at some institutions. However, the term "junior college" has evolved to describe private two-year institutions, whereas the term "community college" has evolved to describe publicly funded two-year institutions. The name derives from the fact that community colleges primarily attract and accept students from the local community, and are often supported by local tax revenue.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_FARMER">
+			<Text>Great Farmer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_FARMER_STRATEGY">
+			<Text>The Great Farmer builds farms twice as a fast as a Worker.  He can also build a Great Farm which gives extra [ICON_FOOD] food and [ICON_PRODUCTION] production.  The Great Farmer cannot clear woods, jungle, or marshes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_FARMER_TEXT">
+			<Text>
+				Farming has been dated back as far as the Neolithic era. By the Bronze Age, the Sumerians had an agricluture specialized labour force by 5,000-4,000 B.C., and heavily depended on irrigation to grow crops. They relied on three person teams when harvesting in the spring. The Ancient Egypt farmers farmed and relied and irrigated their water from the Nile.[NEWLINE][NEWLINE]Animal husbandry, the practice of rearing animals specifically for farming purposes, has existed for thousands of years. Dogs were domesticated in East Asia about 15,000 years ago. Goats and sheep were domesticated around 8000 BCE in Asia. Swine or pigs were domesticated by 7000 BCE in the Middle East and China. The earliest evidence of horse domestication dates to around 4000 BCE.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PROPHET">
+			<Text>Great Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_GREAT_FARM">
+			<Text>Great Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_GREAT_FARM_TEXT">
+			<Text>The Great Farm provides 2 [ICON_FOOD] food and 2 [ICON_PRODUCTION] production.  Great!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GREAT_FARM">
+			<Text>Build Great Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_SPECIALISTS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_1">
+			<Text>George Washington Carver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_2">
+			<Text>John Chapman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_3">
+			<Text>George Harrison Shull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_4">
+			<Text>Henry Wallace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_5">
+			<Text>John Deere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_6">
+			<Text>Cyrus McCormic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_7">
+			<Text>Norman Borlang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_8">
+			<Text>Fritz Haber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FARMER_9">
+			<Text>Ingo Potrykus</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+<!--
+
+
+
+-->

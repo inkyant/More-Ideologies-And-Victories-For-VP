@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_GREAT_FARMER</Type>
+      <DamageStates>1</DamageStates>
+      <Formation>LooseCivilian</Formation>
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+	  <Row>
+		  <UnitInfoType>ART_DEF_UNIT_GREAT_FARMER</UnitInfoType>
+		  <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_WORKER_EURO</UnitMemberInfoType>
+		  <NumMembers>1</NumMembers>
+	  </Row>
+	  <Row>
+		  <UnitInfoType>ART_DEF_UNIT_GREAT_FARMER</UnitInfoType>
+		  <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_AMERLLAMA</UnitMemberInfoType>
+		  <NumMembers>1</NumMembers>
+	  </Row>
+	  <Row>
+		  <UnitInfoType>ART_DEF_UNIT_GREAT_FARMER</UnitInfoType>
+		  <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX</UnitMemberInfoType>
+		  <NumMembers>1</NumMembers>
+	  </Row>
+ </ArtDefine_UnitInfoMemberInfos>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_GREAT_FARMER</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>icon_flag_farmer.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+</GameData>

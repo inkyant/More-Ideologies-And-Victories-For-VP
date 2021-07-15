@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/10/2020 10:34:42 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Pantheon Belief -->
+		<Row Tag="TXT_KEY_BELIEF_GOD_OF_STORMS_SHORT">
+			<Text>God of Storms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_OF_STORMS">
+			<Text>+2 [ICON_PEACE] Faith in Cities with a Garrison. Gain 15 [ICON_PEACE] Faith and [ICON_PRODUCTION] Production when a unit Pillages a non-road Improvement. Does not Scale with Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOD_OF_STORMS">
+			<Text>God of Storms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOD_OF_STORMS_HELP">
+			<Text>+2 [ICON_PEACE] Faith per turn when Garrisoned in a City.[NEWLINE]Gain [ICON_PEACE] Faith and [ICON_PRODUCTION] Production from Pillaging non-road Improvements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TRICKSTER_GOD_SHORT">
+			<Text>Trickster God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TRICKSTER_GOD">
+			<Text>12 [ICON_PEACE] Faith and [ICON_RESEARCH] Science when you Build, or Repair a non-Road Improvement. Does not Scale with Era.</Text>
+		</Row>
+		<!-- Founder Belief -->
+		<Row Tag="TXT_KEY_BELIEF_REVELATION_SHORT">
+			<Text>Revelation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_REVELATION">
+			<Text>Unlocks [COLOR_POSITIVE_TEXT]Chartarium National Wonder[ENDCOLOR] (+5 [ICON_RESEARCH] Science from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). When you research a technology, gain +1 [ICON_GOLDEN_AGE] Golden Age Point, [ICON_PEACE] Faith, and [ICON_CULTURE] Culture for every Follower of your [ICON_RELIGION] Religion (max 250 Followers).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP">
+			<Text>Gain [ICON_GOLDEN_AGE] Golden Age Points, [ICON_PEACE] Faith and [ICON_CULTURE] Culture from researching techs[NEWLINE][NEWLINE]+5 [ICON_RESEARCH] Science from all Holy Sites.[NEWLINE][NEWLINE]May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this city by 25%, and increases the city's resistance to conversion by 20%.[NEWLINE][NEWLINE] Receive 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegates in the World Congress for every 10 Cities following your [ICON_RELIGION] Religion.[NEWLINE][NEWLINE]Contains 2 slots for Great Works of Writing[NEWLINE]+6 [ICON_RESEARCH] Science and +4 [ICON_PEACE] Faith when Themed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_STRATEGY">
+			<Text>Build the Religious Library to gain [ICON_GOLDEN_AGE] Golden Age Points, [ICON_TOURISM] Tourism and [ICON_CULTURE] Culture from researching techs and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_PEDIA">
+			<Text>The Chartarium was a collection of correspondences and minutes held privately by the office of the Papacy. This collection formed the precursor to the Vatican's Secret Archives.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY">
+			<Text>Chartarium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_RELIGIOUS_LIBRARY">
+			<Text>Repository of Secret {2_CivAdjective} Correspondences</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure all slots are filled with Writing from the Same Civilization.</Text>
+		</Row>
+		<!-- Follower Belief -->
+		<Row Tag="TXT_KEY_BELIEF_SWEAT_LODGE_SHORT">
+			<Text>Sweat Lodges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SWEAT_LODGE">
+			<Text>Use [ICON_PEACE] Faith to purchase Sweat Lodges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE">
+			<Text>Sweat Lodge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE_PEDIA">
+			<Text>A sweat lodge is a small domed hut used by various North American Indigenous cultures for dry heat sessions, similar to a sauna. The religious traditions surrounding these sessions, often referred to simpy as 'sweats', differ greatly between nations, but often include purification and initiation rituals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE_STRATEGY">
+			<Text>Purchase this building to get a big boost to your [ICON_PEACE] Faith and make your units heal faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE_HELP">
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Distress. +20% Religious pressure and +20% Religious resistance in this city.[NEWLINE][NEWLINE]+1 [ICON_RESEARCH] Science to nearby Plantations and Camps. Units stationed in this city heal [COLOR_POSITIVE_TEXT]5 HP[ENDCOLOR] every turn, regardless of any actions taken.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE_TOOLTIP">
+			<Text>+2 [ICON_PEACE] Faith[NEWLINE]+3 [ICON_RESEARCH] Science[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_SWEAT_LODGE_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAR_E_MEHR_SHORT">
+			<Text>Dar-e Mehr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAR_E_MEHR">
+			<Text>Use [ICON_PEACE] Faith to purchase Dar-e Mehr.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR">
+			<Text>Dar-e Mehr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR_PEDIA">
+			<Text>The Zoroastrian Fire Temples, or Dar-e Mehr, were the centers of Persian religious life. Water and fire are honoured as the main components of ritual purification in Zoroatrianism. Fire, Atar, is held in special regard as the manifestation of Ahura Mazda, the singular creator god of Zoroastrianism. The altar inside the Dar-e Mehr is kept perpetually lit and purifying ash from the fire is used in the priests' various rituals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR_HELP">
+			<Text>Reduces [ICON_HAPPINESS_3] Unhappiness from Distress. +30% Religious pressure and +15% Religious resistance in this city.[NEWLINE][NEWLINE]10% of [ICON_CULTURE] Culture created by the City counts as [ICON_PEACE] Faith Per Turn. Contains 1 slot for a [ICON_GREAT_WORK] Great Work of Art.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR_STRATEGY">
+			<Text>The Dar-e Mehr offers modest Faith and Culture bonuses. Dar-e Mehr offers huge potential for faith generation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR_TOOLTIP">
+			<Text>+3 [ICON_PEACE] Faith[NEWLINE]+2 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_DAR_E_MEHR_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM_SHORT">
+			<Text>Communalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM">
+			<Text>[ICON_FOOD] Food and [ICON_PRODUCTION] Production Internal Trade Routes generate +3 of their respective yields, Scaling with Era. +2 [ICON_PRODUCTION] Production if city has a Specialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_WARRIOR_MONKS_SHORT">
+			<Text>Warrior Monks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_WARRIOR_MONKS">
+			<Text>Melee and Gun Units trained in the City following this Religion gain the [COLOR_POSITIVE_TEXT]Warrior Monk[ENDCOLOR] Promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WARRIOR_MONK">
+			<Text>Martial Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WARRIOR_MONK_HELP">
+			<Text>+20% [ICON_STRENGTH] Defense and +33% Experience.[NEWLINE]When Garrisoned in a City, the City gains +30% Religious Pressure.</Text>
+		</Row>
+		<!-- Enhancer Beliefs -->
+		<Row Tag="TXT_KEY_BELIEF_EMIRATES_SHORT">
+			<Text>Emirates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EMIRATES">
+			<Text>Pressure tripled to friendly [ICON_CITY_STATE] City-States and foreign Cities connected via [ICON_INTERNATIONAL_TRADE] Trade Routes. 2 [ICON_RESEARCH] Science and [ICON_CULTURE] Culture for each active [ICON_INTERNATIONAL_TRADE] Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ANIMISM_SHORT">
+			<Text>Animism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ANIMISM">
+			<Text>[ICON_MISSIONARY] Missionaries of this Religion ignore terrain movement costs. +1 [ICON_CULTURE] Culture and [ICON_FOOD] Food from Unimproved Features and Natural Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANIMISM">
+			<Text>Animism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANIMISM_HELP">
+			<Text>Unit ignores terrain Movement costs.</Text>
+		</Row>
+		<!-- Reformation Belief -->
+		<Row Tag="TXT_KEY_BELIEF_ORTHODOXY_SHORT">
+			<Text>Orthodoxy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ORTHODOXY">
+			<Text>May purchase Courthouses, Constabularies, and Police Stations with [ICON_PEACE] Faith. These buildings produce +4 [ICON_GOLD] Culture and +2 [ICON_PEACE] Faith each. +15% [ICON_STRENGTH] Combat Strength for units within 3 tiles of a city following your Religion.</Text>
+		</Row>
+	</Language_en_US> 
+</GameData>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/19/2014 10:51:44 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_VICTORY_RELIGIOUS">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_RELIGIOUS_BANG">
+			<Text>Religious Victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORYSCREEN_RELIGIOUS">
+			<Text>[ICON_VICTORY_RELIGIOUS] Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_VICTORY_DISABLED">
+			<Text>Religious Victory is disabled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_RELIGIONS_FOUNDED">
+			<Text>No Religions Have Been Founded Yet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_FLAVOR_RELIGIOUS">
+			<Text>You have united the world through faith.  People from all nations recognize your religion as the one true path.  No other faith or philosophy can claim the allegiance your religion commands, nor other kings wield its power.  All men look to your prophets for guidance, and pray that this unprecedented unity will bring about a lasting peace.  Long will the world remember your miraculous achievement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_STATUS_PLAYER">
+			<Text>{1_ReligionName} {2_Religion}[NEWLINE]Founder: You[NEWLINE]Spread: {3_Spread}%/90%[NEWLINE] Faith Amassed: {5_Faith} [ICON_PEACE] / 20,000 [ICON_PEACE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_STATUS_UNMET">
+			<Text>{1_ReligionName} {2_Religion}[NEWLINE]Founder: Unknown[NEWLINE]Spread: {3_Spread}%/90%[NEWLINE] Faith Amassed: {5_Faith} [ICON_PEACE] / 20,000 [ICON_PEACE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_STATUS">
+			<Text>{1_ReligionName} {2_Religion}[NEWLINE]Founder: {4_Player}[NEWLINE]Spread: {3_Spread}%/90%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_FAITH">
+			<Text>Faith Amassed: {5_Faith} [ICON_PEACE] / 20,000 [ICON_PEACE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGIOUS_FAITH_DONE">
+			<Text>Faith Amassed: [COLOR_POSITIVE_TEXT]{1_Faith} [ICON_PEACE] [ENDCOLOR]/[COLOR_POSITIVE_TEXT] {2_FaithTarget} [ICON_PEACE][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORYSCREEN_ECONOMIC">
+			<Text>[ICON_VICTORY_ECONOMIC] Economic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_ECONOMIC">
+			<Text>Economic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_ECONOMIC_MONOPOLY_UNMET">
+			<Text>An Unmet Player</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_ECONOMIC_MONOPOLY">
+			<Text>{1_Name} [NEWLINE]Monopoly Needed: {2_NumMonopoly}/{3_MonopolyTarget}[NEWLINE]Accumulated Gold: {4_Gold} [ICON_GOLD]/ {5_GoldTarget} [ICON_GOLD]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_FLAVOR_ECONOMIC">
+			<Text>You have dominated the world through the power of wealth. Your monopolies and vast wealth has forced all foreign nations to bend to your will. As the greatest economic power in the world, there is indeed no equal to your might.  All men saw your achievements and wish to emulate you by pursuing mass wealth as you did.  Long will the world remember the power of gold coins.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+
