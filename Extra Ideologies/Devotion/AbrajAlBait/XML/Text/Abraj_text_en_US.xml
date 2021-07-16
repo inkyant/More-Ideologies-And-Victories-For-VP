@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_ABRAJ">
+			<Text>Abraj al Bait Towers</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ABRAJ_HELP">
+			<Text>+2 [ICON_CULTURE] Culture from each luxury resource worked by the city. +20 [ICON_GOLD] Gold with the Pilgrimage belief.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ABRAJ_QUOTE">
+			<Text>[NEWLINE]"A good word is like a good tree whose root is firmly fixed and whose top is in the sky."[NEWLINE] - Qu'ran[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ABRAJ_PEDIA">
+			<Text> Abraj al Bait Towers is a complex located metres away from the holiest site in Islamic religion, in Mecca, Saudi Arabia. It is expected to be opened in 2012, with a construction time of 7 years, and will break several world records, including 'The World's Tallest Hotel', 'Most floor space of any building in the world' and 'The World's largest clock face'. [NEWLINE][NEWLINE] The tallest tower is 601 metres tall, second only to the Burj Khalifa in building height, while the total complex has 1,500,000 square metres of floor space, making it have the most floorspace of any building in the world, along with Dubai International Airport's Terminal 3. The clock face is 43 metres by 43 metres, giving a total size of 1839 square metres. In total, the towers can hold up to 100,00 people in a 'seven star' hotel and residential towers.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

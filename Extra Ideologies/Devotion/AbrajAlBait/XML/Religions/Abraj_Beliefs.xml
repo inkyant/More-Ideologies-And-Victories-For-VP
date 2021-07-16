@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_PILGRIMAGE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_ABRAJ</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>20</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+</GameData>
