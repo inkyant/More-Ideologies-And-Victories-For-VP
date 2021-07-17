@@ -1,0 +1,10 @@
+<Asset>
+  <Mesh file="Cairn.gr2" source="Max" />
+  <Texture file="Cairn.dds" source="Max" />
+  <Texture file="black_4x4.dds" source="Max" />
+  <Texture file="Cairn_Base.dds" source="Max" />
+  <Texture file="Cairn_Base_h.dds" source="Max" />
+  <Texture file="Unit_Environment_Dull.dds" source="Max" />
+  <Texture file="Unit_Environment_Sharp.dds" source="Max" />
+  <Texture file="Unit_Irradiance.dds" source="Max" />
+</Asset>
