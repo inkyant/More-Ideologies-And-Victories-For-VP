@@ -33,14 +33,20 @@
   <Blocks />
   <Files>
     <File md5="26F0ADE73CBEBD01548070F6E3E0A21D" import="1">ChooseIdeologyPopup.lua</File>
-    <File md5="A3CCA8A897C2724157FD1178AD742EE1" import="0">NewIdeology.sql</File>
+    <File import="0">Prosperity\ProsperityIdeology\ProsperityIdeology.sql</File>
+    <File import="0">Devotion\DevotionIdeology\DevotionIdeology.sql</File>
     <File md5="E2CFFB135AA70563C44638472951D275" import="1">SocialPolicyPopup.lua</File>
-    <File md5="8AFA68098E37C1FF09062E4490C3F6FD" import="0">Text.xml</File>
+    <File import="0">Devotion\DevotionIdeology\DevotionText.xml</File>
+    <File import="0">Prosperity\ProsperityIdeology\ProsperityText.xml</File>
+	  <File import="1">Devotion\DevotionSplash.dds</File>
+	  <File import="1">Prosperity\ProsperitySplash.dds</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>NewIdeology.sql</UpdateDatabase>
-      <UpdateDatabase>Text.xml</UpdateDatabase>
+      <UpdateDatabase>Prosperity\ProsperityIdeology\ProsperityIdeology.sql</UpdateDatabase>
+      <UpdateDatabase>Prosperity\ProsperityIdeology\ProsperityText.xml</UpdateDatabase>
+      <UpdateDatabase>Devotion\DevotionIdeology\DevotionIdeology.sql</UpdateDatabase>
+      <UpdateDatabase>Devotion\DevotionIdeology\DevotionText.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

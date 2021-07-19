@@ -78,8 +78,8 @@ local g_IdeologyBackgrounds = {
 		POLICY_BRANCH_AUTOCRACY = "SocialPoliciesAutocracy.dds",
 		POLICY_BRANCH_FREEDOM = "SocialPoliciesFreedom.dds",
 		POLICY_BRANCH_ORDER = "SocialPoliciesOrder.dds",
-		POLICY_BRANCH_THEOCRACY = "SocialPoliciesPiety.dds",
-		POLICY_BRANCH_MONARCHY = "SocialPoliciesTradition.dds",
+		POLICY_BRANCH_DEVOTION = "DevotionSplash.dds",
+		POLICY_BRANCH_PROSPERITY = "ProsperitySplash.dds",
 }
 
 -------------------------------------------------

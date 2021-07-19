@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/23/2020 9:32:32 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_DEVOTION">
+			<text>Devotion</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PILGRIMAGE">
+			<text>Pilgrimage</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PILGRIMAGE_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Pilgrimage:[ENDCOLOR] +5 [ICON_PEACE] Faith from Holy Sites. +25% Pressure in all nearby Cities without your majority Religion.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PILGRIMAGE_PEDIA">
+			<text>Pilgrimage</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FIRE_TEMPLE">
+			<text>Fire Temple</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FIRE_TEMPLE_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Fire Temple:[ENDCOLOR] +3 [ICON_PEACE] Faith, [ICON_CULTURE] Culture and [ICON_FOOD] Food from Temples. +25% Pressure in all nearby Cities without your majority Religion.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FIRE_TEMPLE_PEDIA">
+			<text>Temple</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HOLY_BOOKS">
+			<text>Holy Books</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HOLY_BOOKS_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Holy Books:[ENDCOLOR] +2 [ICON_PEACE] Faith and +1 [ICON_RESEARCH] Science from Great Works. The [ICON_TOURISM] Tourism modifier for Shared Religion is increased by 15%.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HOLY_BOOKS_PEDIA">
+			<text>Holy Books</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HOLY_SEE">
+			<text>Holy See</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HOLY_SEE_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Holy See:[ENDCOLOR] +1 [ICON_DIPLOMAT] Delegate in the WC for every 8 City-States. +25% Pressure in all nearby Cities without your majority Religion.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HOLY_SEE_PEDIA">
+			<text>Holy See</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MEDITATION_AND_INSIGHT">
+			<text>Meditation and Insight</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MEDITATION_AND_INSIGHT_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Meditation and Insight:[ENDCOLOR] Specialists generate +2 [ICON_RESEARCH] Science. -10% [ICON_PEACE] Faith costs for purchasing Buildings, Missionaries and Inquisitors.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MEDITATION_AND_INSIGHT_PEDIA">
+			<text>Meditation and Insight</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RELIGIOUS_ART">
+			<text>Religious Art</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RELIGIOUS_ART_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Religious Art:[ENDCOLOR] Great Works generate +1 [ICON_PEACE] Faith and [ICON_CULTURE] Culture. -10% [ICON_PEACE] Faith costs for purchasing Buildings, Missionaries and Inquisitors.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RELIGIOUS_ART_PEDIA">
+			<text>Religious Art</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_TITHE">
+			<text>Tithe</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_TITHE_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Tithe:[ENDCOLOR] Religious Buildings purchased with [ICON_PEACE] Faith gain +2 [ICON_GOLD] Gold. -10% [ICON_PEACE] Faith costs for purchasing Buildings, Missionaries and Inquisitors.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_TITHE_PEDIA">
+			<text>Tithe</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RELIGIOUS_COURTS">
+			<text>Religious Courts</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RELIGIOUS_COURTS_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Religious Courts:[ENDCOLOR] Courthouses generate +3 [ICON_PEACE] Faith and [ICON_GOLD] Gold. -10% [ICON_PEACE] Faith costs for purchasing Buildings, Missionaries and Inquisitors.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RELIGIOUS_COURTS_PEDIA">
+			<text>Religious Courts</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GUIDANCE_PROPHET">
+			<text>Guidance of a Prophet</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GUIDANCE_PROPHET_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Guidance of a Prophet:[ENDCOLOR] Get a free Great Prophet. Holy Sites gain +3 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold and [ICON_TOURISM] Tourism. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GUIDANCE_PROPHET_PEDIA">
+			<text>Guidance of a Prophet</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_STATE_RELIGION">
+			<text>State Religion</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_STATE_RELIGION_HELP">
+			<text>[COLOR_POSITIVE_TEXT]State Religion:[ENDCOLOR] Get a free Great Prophet. All cities with majority religion gain +10 [ICON_PEACE] Faith, +5 [ICON_PRODUCTION] Production and +5 [ICON_GOLD] Gold. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_STATE_RELIGION_PEDIA">
+			<text>State Religion</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BLESSING_DALAI_LAMA">
+			<text>Blessing of Dalai Lama</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BLESSING_DALAI_LAMA_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Blessing of Dalai Lama:[ENDCOLOR] +2 [ICON_PEACE] Faith from Corporate Offices. The [ICON_TOURISM] Tourism modifier for Shared Religion is increased by 15%. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BLESSING_DALAI_LAMA_PEDIA">
+			<text>Blessing of Dalai Lama</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CALIPHATE">
+			<text>The Caliphate</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CALIPHATE_HELP">
+			<text>[COLOR_POSITIVE_TEXT]The Caliphate:[ENDCOLOR] Yield penalties in [ICON_PUPPET] puppeted cities reduced by 30%. +1 local [ICON_HAPPINESS_1] from every Courthouse. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CALIPHATE_PEDIA">
+			<text>The Caliphate</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ANCIENT_PATRIARCHATE">
+			<text>Ancient Patriarchate</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ANCIENT_PATRIARCHATE_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Ancient Patriarchate:[ENDCOLOR] May build Ancient Patriarchate (up to 5) in your empire. Ancient Patriarchate gives +5 [ICON_PEACE] Faith and 20% of Faith purchases is converted into [ICON_CULTURE] Culture and [ICON_GOLD] Gold. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ANCIENT_PATRIARCHATE_PEDIA">
+			<text>Ancient Patriarchate</text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ANCIENT_PATRIARCHATE_HELP">
+			<Text>Gain [ICON_PEACE] Faith and [ICON_CULTURE] Culture from [ICON_PEACE] Faith purchases. Spam out your missionaries to spread your religion as missionaries get an extra spread action and are 100% stronger in conversion strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ANCIENT_PATRIARCHATE_STRATEGY">
+			<Text>Build the Ancient Patriarchate to get a big boost to your [ICON_PEACE] Faith and gain [ICON_PEACE] Faith and [ICON_CULTURE] Culture from [ICON_PEACE] Faith purchases. Missionaries get an extra spread action and are 100% stronger in conversion strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ANCIENT_PATRIARCHATE">
+			<Text>Ancient Patriarchate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHRINE_FOUNDATION_HELP">
+			<Text>Unlocks four Shinto Shrines. You must build only one of these powerful shrines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHRINE_FOUNDATION_STRATEGY">
+			<Text>Unlocks four Shinto Shrines. You must build only one of these powerful shrines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHRINE_FOUNDATION">
+			<Text>Shrine Foundation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SHINTO_SHRINES">
+			<text>Shinto Shrines</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SHINTO_SHRINES_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Shinto Shrines:[ENDCOLOR] Get the Shrine Foundation in your capital that unlocks four shrines: Inari Shrine (Growth), Hachiman Shrine (War), Tenjin Shrine (Science) and Sengen Shrine (Faith). You may only build one of these. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SHINTO_SHRINES_PEDIA">
+			<text>Shinto Shrines</text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INARI_SHRINE_HELP">
+			<Text>Inari Shrine gives +50% [ICON_FOOD] Food in all cities. All growth related buildings provide +1 [ICON_PEACE] Faith, [ICON_FOOD] Food and [ICON_GOLD] Gold. Hospital provides +3 [ICON_PEACE] Faith, +3 [ICON_FOOD] Food and +5 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INARI_SHRINE_STRATEGY">
+			<Text>Build the Inari Shrine if you want more growth and be rewarded for growing your cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INARI_SHRINE">
+			<Text>Inari Shrine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HACHIMAN_SHRINE_HELP">
+			<Text>Hachiman Shrine gives +20 Global Experience to all units produced in the empire. Military and defensive buildings provide +1 [ICON_PEACE] Faith, [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HACHIMAN_SHRINE_STRATEGY">
+			<Text>Build the Hachiman Shrine if you want more veteran units and be rewarded for building up your military and defenses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HACHIMAN_SHRINE">
+			<Text>Hachiman Shrine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TENJIN_SHRINE_HELP">
+			<Text>Tenjin Shrine gives +15% [ICON_RSEAERCH] Science to all your cities. All science related buildings provide +1 [ICON_PEACE] Faith, [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] GAP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TENJIN_SHRINE_STRATEGY">
+			<Text>Build the Tenjin Shrine if you want more science in your cities and be rewarded for keeping up your science infrastructure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TENJIN_SHRINE">
+			<Text>Tenjin Shrine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENGEN_SHRINE_HELP">
+			<Text>Senge Shrine gives Holy Sites +5 [ICON_PEACE] Faith and [ICON_CULTURE] Culture. All Shrines and Temples provide +5 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENGEN_SHRINE_STRATEGY">
+			<Text>Build the Sengen Shrine if you want make your holy sites stronger and get more [ICON_FAITH] Faith from your Shrines and Temples..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENGEN_SHRINE">
+			<Text>Sengen Shrine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RULE_OF_GOD">
+			<text>Rule of God</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RULE_OF_GOD_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Rule of God:[ENDCOLOR] Capital gains +10 of all yields. May purchase Great Musicians with [ICON_PEACE] Faith. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_RULE_OF_GOD_PEDIA">
+			<text>Rule of God</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DIVINE_REVELATION">
+			<text>Divine Revelation</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DIVINE_REVELATION_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Divine Revelation:[ENDCOLOR] Holy Sites gain +10 [ICON_RESEARCH] Science. Religious Buildings purchased with [ICON_PEACE] Faith gain +2 [ICON_RESEARCH] Science. </text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DIVINE_REVELATION_PEDIA">
+			<text>Divine Revelation</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SHAMAN_KING">
+			<text>Shaman-King</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SHAMAN_KING_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Shaman-King:[ENDCOLOR] Unique promotion (Shaman Blessing A or Shaman Blessing B) given to Armor, Archer and Helicopter units to boost units offensiveness. [NEWLINE][NEWLINE]A: Ignores ZoC and gets +1 [ICON_ARROW_RIGHT] Movements. +33% [ICON_STRENGTH] CS when attacking. 33% to withdraw from battle. +33% [ICON_STRENGTH] CS when in enemy territory. [NEWLINE][NEWLINE]B: Ignore ZoC and gets +1 [ICON_ARROW_RIGHT] Movements. +33% [ICON_RANGE_STRENGTH] CS. +33% [ICON_RANGE_STRENGTH] CS when attacking Units above 50 HP. 33% to withdraw from battle.</text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SHAMAN_KING_PEDIA">
+			<text>Shaman-King</text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHAMAN_BLESSING_A">
+			<Text>Shaman Blessing A</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHAMAN_BLESSING_A_HELP">
+			<Text>Ignore ZoC and gets +1 [ICON_ARROW_RIGHT] Movements. +33% [ICON_STRENGTH] CS when attacking. 33% to withdraw from battle. +33% [ICON_STRENGTH] CS when in enemy territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SHAMAN_BLESSING_A">
+			<Text>Shaman Blessing A</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHAMAN_BLESSING_B">
+			<Text>Shaman Blessing B</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHAMAN_BLESSING_B_HELP">
+			<Text>Ignore ZoC and gets +1 [ICON_ARROW_RIGHT] Movements. +33% [ICON_RANGE_STRENGTH] CS. +33% [ICON_RANGE_STRENGTH] CS when attacking Units above 50 HP. 33% to withdraw from battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SHAMAN_BLESSING_B">
+			<Text>Shaman Blessing B</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -119,16 +119,16 @@ function RefreshList()
 			ImageOffsetY = 0,
 		},
 		{
-			PolicyBranchType = "POLICY_BRANCH_THEOCRACY",
+			PolicyBranchType = "POLICY_BRANCH_DEVOTION",
 			VictoryTypes = {"CultureVictory", "DominationVictory", "ScienceVictory"},
-			Image = "SocialPoliciesPiety.dds",
+			Image = "DevotionSplash.dds",
 			ImageOffsetX = 0,
 			ImageOffsetY = 0,
 		},
 		{
-			PolicyBranchType = "POLICY_BRANCH_MONARCHY",
+			PolicyBranchType = "POLICY_BRANCH_PROSPERITY",
 			VictoryTypes = {"CultureVictory", "DominationVictory", "DiplomaticVictory"},
-			Image = "SocialPoliciesOrder.dds",
+			Image = "ProsperitySplash.dds",
 			ImageOffsetX = 0,
 			ImageOffsetY = 0,
 		}
