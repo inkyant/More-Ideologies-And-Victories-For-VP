@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+        <Row Tag="TXT_KEY_UNIT_JFD_FLOWER_CLASS">
+			<Text>Flower Class</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_FLOWER_CLASS_HELP">
+			<Text>Fast Destroyer replacement that can detect submarines and is cheaper to build. Requires the Prosperity tenet Tonnage War.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_FLOWER_CLASS_STRATEGY">
+			<Text>The Flower Class is unique to the Prosperity Ideology, and replaces the Destroyer. It is cheaper to build and can detect submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_FLOWER_CLASS_TEXT">
+			<Text>The Flower-class corvette (also referred to as the Gladiolus class after the lead ship) was a British class of 267 corvettes used during World War II, specifically with the Allied navies as anti-submarine convoy escorts during the Battle of the Atlantic. Royal Navy ships of this class were named after flowers, hence the name of the class. The majority served during World War II with the Royal Navy (RN) and Royal Canadian Navy (RCN). Several ships built largely in Canada were transferred from the RN to the United States Navy (USN) under the lend-lease programme, seeing service in both navies.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -5,55 +5,180 @@
 		<Row Tag="TXT_KEY_POLICY_BRANCH_PROSPERITY">
 			<text>Prosperity</text>
 		</Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PROSPERITY_HELP">
+			<text>Prosperity</text>
+		</Row>
+    <Row Tag="TXT_KEY_PROSPERITY_TITLE">
+			<text>Manager</text>
+		</Row>
+
     <Row Tag="TXT_KEY_POLICY_POP_ART">
       <text>Pop Art</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_POP_ART_HELP">
+      <text>Pop Art</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POP_ART_PEDIA">
+      <text>Pop Art</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_REGULATORY_CAPTURE">
       <text>Regulatory Capture</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_REGULATORY_CAPTURE_HELP">
+      <text>Regulatory Capture</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REGULATORY_CAPTURE_PEDIA">
+      <text>Regulatory Capture</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_LOBBYISTS">
       <text>Lobbyists</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_LOBBYISTS_HELP">
+      <text>Lobbyists</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LOBBYISTS_PEDIA">
+      <text>Lobbyists</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH">
       <text>Gospel of Wealth</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH_HELP">
+      <text>Gospel of Wealth</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH_PEDIA">
+      <text>Gospel of Wealth</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING">
       <text>Insider Trading</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING_HELP">
+      <text>Insider Trading</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING_PEDIA">
+      <text>Insider Trading</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_TOO_BIG_TO_FAIL">
       <text>Too Big To Fail</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_TOO_BIG_TO_FAIL_HELP">
+      <text>Too Big To Fail</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TOO_BIG_TO_FAIL_PEDIA">
+      <text>Too Big To Fail</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_SOFT_POWER">
       <text>Soft Power</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_SOFT_POWER_HELP">
+      <text>Soft Power</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOFT_POWER_PEDIA">
+      <text>Soft Power</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_DIPLOMATIC_IMMUNITY">
       <text>Diplomatic Immunity</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_DIPLOMATIC_IMMUNITY_HELP">
+      <text>Diplomatic Immunity</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DIPLOMATIC_IMMUNITY_PEDIA">
+      <text>Diplomatic Immunity</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_TONNAGE_WAR">
       <text>Tonnage War</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_TONNAGE_WAR_HELP">
+      <text>[COLOR_POSITIVE_TEXT]Tonnage War:[ENDCOLOR] Can build the [COLOR_YELLOW]Flower Class[ENDCOLOR]. +20 XP for all purchased units.</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TONNAGE_WAR_PEDIA">
+      <text>Tonnage War!</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_PANOPTICISM">
       <text>Panopticism</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_PANOPTICISM_HELP">
+      <text>Panopticism</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PANOPTICISM_PEDIA">
+      <text>Panopticism</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_INDIGO_ERA">
       <text>Indigo Era</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_INDIGO_ERA_HELP">
+      <text>Indigo Era</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INDIGO_ERA_PEDIA">
+      <text>Indigo Era</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_CORPORATE_PERSONHOOD">
       <text>Corporate Personhood</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_CORPORATE_PERSONHOOD_HELP">
+      <text>Corporate Personhood</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CORPORATE_PERSONHOOD_PEDIA">
+      <text>Corporate Personhood</text>
+    </Row>
+
     <Row Tag="TXT_KEY_POLICY_COMPANY_TOWNS">
       <text>Company Towns</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_COMPANY_TOWNS_HELP">
+      <text>Company Towns</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COMPANY_TOWNS_PEDIA">
+      <text>Company Towns</text>
+    </Row>
+
     <Row Tag="TXT_KEY_POLICY_BIG_PHARMA">
       <text>Big Pharma</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_BIG_PHARMA_HELP">
+      <text>Big Pharma</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BIG_PHARMA_PEDIA">
+      <text>Big Pharma</text>
+    </Row>
+
     <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS">
       <text>Campaign Contributions</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS_HELP">
+      <text>Campaign Contributions</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS_PEDIA">
+      <text>Campaign Contributions</text>
+    </Row>
+    
     <Row Tag="TXT_KEY_POLICY_HORIZONTAL_INTEGRATION">
       <text>Horizontal Integration</text>
     </Row>
+    <Row Tag="TXT_KEY_POLICY_HORIZONTAL_INTEGRATION_HELP">
+      <text>Horizontal Integration</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HORIZONTAL_INTEGRATION_PEDIA">
+      <text>Horizontal Integration</text>
+    </Row>
+
     <Row Tag="TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT">
+      <text>Private Spaceflight</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_HELP">
+      <text>Private Spaceflight</text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_PEDIA">
       <text>Private Spaceflight</text>
     </Row>
   </Language_en_US>

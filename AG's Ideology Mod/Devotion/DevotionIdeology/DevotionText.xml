@@ -5,6 +5,13 @@
 		<Row Tag="TXT_KEY_POLICY_BRANCH_DEVOTION">
 			<text>Devotion</text>
 		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_DEVOTION_HELP">
+			<text>Prosperity</text>
+		</Row>
+    	<Row Tag="TXT_KEY_DEVOTION_TITLE">
+			<text>Supreme Ruler</text>
+		</Row>
+
 		<Row Tag="TXT_KEY_POLICY_PILGRIMAGE">
 			<text>Pilgrimage</text>
 		</Row>
@@ -131,6 +138,10 @@
 		<Row Tag="TXT_KEY_BUILDING_ANCIENT_PATRIARCHATE">
 			<Text>Ancient Patriarchate</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ANCIENT_PATRIARCHATE_PEDIA">
+			<Text>Ancient Patriarchate</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_BUILDING_SHRINE_FOUNDATION_HELP">
 			<Text>Unlocks four Shinto Shrines. You must build only one of these powerful shrines.</Text>
 		</Row>
@@ -140,6 +151,10 @@
 		<Row Tag="TXT_KEY_BUILDING_SHRINE_FOUNDATION">
 			<Text>Shrine Foundation</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHRINE_FOUNDATION_PEDIA">
+			<Text>Shrine Foundation</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_POLICY_SHINTO_SHRINES">
 			<text>Shinto Shrines</text>
 		</Row>
@@ -158,6 +173,10 @@
 		<Row Tag="TXT_KEY_BUILDING_INARI_SHRINE">
 			<Text>Inari Shrine</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INARI_SHRINE_PEDIA">
+			<Text>Inari Shrine</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_BUILDING_HACHIMAN_SHRINE_HELP">
 			<Text>Hachiman Shrine gives +20 Global Experience to all units produced in the empire. Military and defensive buildings provide +1 [ICON_PEACE] Faith, [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production.</Text>
 		</Row>
@@ -167,6 +186,10 @@
 		<Row Tag="TXT_KEY_BUILDING_HACHIMAN_SHRINE">
 			<Text>Hachiman Shrine</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HACHIMAN_SHRINE_PEDIA">
+			<Text>Hachiman Shrine</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_BUILDING_TENJIN_SHRINE_HELP">
 			<Text>Tenjin Shrine gives +15% [ICON_RSEAERCH] Science to all your cities. All science related buildings provide +1 [ICON_PEACE] Faith, [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] GAP.</Text>
 		</Row>
@@ -176,6 +199,10 @@
 		<Row Tag="TXT_KEY_BUILDING_TENJIN_SHRINE">
 			<Text>Tenjin Shrine</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TENJIN_SHRINE_PEDIA">
+			<Text>Tenjin Shrine</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_BUILDING_SENGEN_SHRINE_HELP">
 			<Text>Senge Shrine gives Holy Sites +5 [ICON_PEACE] Faith and [ICON_CULTURE] Culture. All Shrines and Temples provide +5 [ICON_PEACE] Faith.</Text>
 		</Row>
@@ -185,6 +212,10 @@
 		<Row Tag="TXT_KEY_BUILDING_SENGEN_SHRINE">
 			<Text>Sengen Shrine</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENGEN_SHRINE_PEDIA">
+			<Text>Sengen Shrine</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_POLICY_RULE_OF_GOD">
 			<text>Rule of God</text>
 		</Row>

@@ -8,7 +8,7 @@
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_WONDER_WTC_HELP">
-			<Text>Provides 2 additional Delegates in the World Congress. Gain 1 additional Trade Route, and a free Caravan appears in the city. Trade routes players make to a city with the World Trade Center provide an additional +2 [ICON_GOLD] Gold for the trade route owner, and +4 [ICON_GOLD] Gold for the city owner.</Text>
+			<Text>Requires [COLOR_MAGENTA]Prosperity[ENDCOLOR]. Receive 1 [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Social Policy and 2 additional Delegates in the World Congress. Gain 1 additional Trade Route, and a free Caravan appears in the city. Trade routes players make to a city with the World Trade Center provide an additional +2 [ICON_GOLD] Gold for the trade route owner, and +4 [ICON_GOLD] Gold for the city owner.</Text>
 		</Row>
 		<!-- Quote tags -->
 		<Row Tag="TXT_KEY_WONDER_WTC_QUOTE">

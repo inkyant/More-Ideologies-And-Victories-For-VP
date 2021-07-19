@@ -40,6 +40,29 @@
     <File import="0">Prosperity\ProsperityIdeology\ProsperityText.xml</File>
 	  <File import="1">Devotion\DevotionSplash.dds</File>
 	  <File import="1">Prosperity\ProsperitySplash.dds</File>
+    <File import="0">Prosperity\WTC\Art\IconTextureAtlases_WTC.xml</File>
+    <File import="0">Prosperity\WTC\Code\WTC_Text_en_US.xml</File>
+    <File import="0">Prosperity\WTC\Code\WTC.sql</File>
+    <File import="1">Prosperity\WTC\Art\WTC_Splash.dds</File>
+    <File import="1">Prosperity\WTC\Art\WTC45.dds</File>
+    <File import="1">Prosperity\WTC\Art\WTC64.dds</File>
+    <File import="1">Prosperity\WTC\Art\WTC80.dds</File>
+    <File import="1">Prosperity\WTC\Art\WTC128.dds</File>
+    <File import="1">Prosperity\WTC\Art\WTC256.dds</File>
+    <File import="0">Prosperity\FlowerClass\Code\FlowerClass.sql</File>
+    <File import="0">Prosperity\FlowerClass\Code\FlowerClassText.xml</File>
+    <File import="0">Prosperity\FlowerClass\Art\ArtDefines.sql</File>
+    <File import="1">Prosperity\FlowerClass\Art\sv_FlowerClass.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_UnitFlagAtlas_32.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_045.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_064.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_080.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_128.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_256.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\corvette_diff.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\corvette_sref.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\corvette.fxsxml</File>
+    <File import="1">Prosperity\FlowerClass\Art\Corvette.gr2</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -47,6 +70,12 @@
       <UpdateDatabase>Prosperity\ProsperityIdeology\ProsperityText.xml</UpdateDatabase>
       <UpdateDatabase>Devotion\DevotionIdeology\DevotionIdeology.sql</UpdateDatabase>
       <UpdateDatabase>Devotion\DevotionIdeology\DevotionText.xml</UpdateDatabase>
+      <UpdateDatabase>Prosperity\WTC\Art\IconTextureAtlases_WTC.xml</UpdateDatabase>
+      <UpdateDatabase>Prosperity\WTC\Code\WTC.sql</UpdateDatabase>
+      <UpdateDatabase>Prosperity\WTC\Code\WTC_Text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Prosperity\FlowerClass\Art\ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Prosperity\FlowerClass\Code\FlowerClass.sql</UpdateDatabase>
+      <UpdateDatabase>Prosperity\FlowerClass\Code\FlowerClassText.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
