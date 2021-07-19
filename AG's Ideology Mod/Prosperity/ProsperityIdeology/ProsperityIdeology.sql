@@ -30,9 +30,9 @@ VALUES
 
 --Temporary until text added
 UPDATE Policies
-SET Help = LOWER(SUBSTR(NEW.Type, 8))
+SET Help = LOWER(SUBSTR(Type, 8))
 WHERE PolicyBranchType = 'POLICY_BRANCH_PROSPERITY';
 
 UPDATE Policies
-SET Civilopedia = LOWER(SUBSTR(NEW.Type, 8))
+SET Civilopedia = LOWER(SUBSTR(Type, 8))
 WHERE PolicyBranchType = 'POLICY_BRANCH_PROSPERITY';
