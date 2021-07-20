@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_EPCOT">
+			<Text>EPCOT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EPCOT_HELP">
+			<Text>Requires [COLOR_MAGENTA]Prosperity[ENDCOLOR]. Receive 1 [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Social Policy. Gain 50 [ICON_RESEARCH] Science when adopting a policy or discovering a technology, scaling with era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EPCOT_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"It’s like the city of tomorrow ought to be. A city that caters to the people as a service function. It will be a planned, controlled community, a showcase for American industry and research, schools, cultural and educational opportunities."[NEWLINE][TAB][TAB] - Walt Disney[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EPCOT_PEDIA">
+			<Text>EPCOT was a futuristic dream city imagined and designed by Walt Disney. It was never finished, and later became a theme park.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

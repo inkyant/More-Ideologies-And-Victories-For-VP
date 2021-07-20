@@ -32,22 +32,26 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="26F0ADE73CBEBD01548070F6E3E0A21D" import="1">ChooseIdeologyPopup.lua</File>
+    <File import="1">ChooseIdeologyPopup.lua</File>
+    <File import="1">SocialPolicyPopup.lua</File>
+
     <File import="0">Prosperity\ProsperityIdeology\ProsperityIdeology.sql</File>
-    <File import="0">Devotion\DevotionIdeology\DevotionIdeology.sql</File>
-    <File md5="E2CFFB135AA70563C44638472951D275" import="1">SocialPolicyPopup.lua</File>
-    <File import="0">Devotion\DevotionIdeology\DevotionText.xml</File>
     <File import="0">Prosperity\ProsperityIdeology\ProsperityText.xml</File>
-	  <File import="1">Devotion\DevotionSplash.dds</File>
 	  <File import="1">Prosperity\ProsperitySplash.dds</File>
-    <File import="0">Prosperity\WTC\Art\IconTextureAtlases_WTC.xml</File>
+
+    <File import="0">Devotion\DevotionIdeology\DevotionIdeology.sql</File>
+    <File import="0">Devotion\DevotionIdeology\DevotionText.xml</File>
+	  <File import="1">Devotion\DevotionSplash.dds</File>
+
     <File import="0">Prosperity\WTC\Code\WTC_Text_en_US.xml</File>
     <File import="0">Prosperity\WTC\Code\WTC.sql</File>
+    <File import="0">Prosperity\WTC\Art\IconTextureAtlases_WTC.xml</File>
     <File import="1">Prosperity\WTC\Art\WTC45.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC64.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC80.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC128.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC256.dds</File>
+
     <File import="0">Prosperity\FlowerClass\Code\FlowerClass.sql</File>
     <File import="0">Prosperity\FlowerClass\Code\FlowerClassText.xml</File>
     <File import="0">Prosperity\FlowerClass\Art\ArtDefines.sql</File>
@@ -62,19 +66,37 @@
     <File import="1">Prosperity\FlowerClass\Art\corvette_sref.dds</File>
     <File import="1">Prosperity\FlowerClass\Art\corvette.fxsxml</File>
     <File import="1">Prosperity\FlowerClass\Art\Corvette.gr2</File>
+
+    <File import="0">Prosperity\EPCOT\Code\EPCOT.sql</File>
+    <File import="0">Prosperity\EPCOT\Code\EPCOTText.xml</File>
+    <File import="0">Prosperity\EPCOT\Art\EPCOTAtlas.sql</File>
+    <File import="1">Prosperity\EPCOT\Art\EpcotSplash.dds</File>
+    <File import="1">Prosperity\EPCOT\Art\EPCOT032.dds</File>
+    <File import="1">Prosperity\EPCOT\Art\EPCOT045.dds</File>
+    <File import="1">Prosperity\EPCOT\Art\EPCOT064.dds</File>
+    <File import="1">Prosperity\EPCOT\Art\EPCOT080.dds</File>
+    <File import="1">Prosperity\EPCOT\Art\EPCOT128.dds</File>
+    <File import="1">Prosperity\EPCOT\Art\EPCOT256.dds</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>Prosperity\ProsperityIdeology\ProsperityIdeology.sql</UpdateDatabase>
       <UpdateDatabase>Prosperity\ProsperityIdeology\ProsperityText.xml</UpdateDatabase>
+
       <UpdateDatabase>Devotion\DevotionIdeology\DevotionIdeology.sql</UpdateDatabase>
       <UpdateDatabase>Devotion\DevotionIdeology\DevotionText.xml</UpdateDatabase>
+
       <UpdateDatabase>Prosperity\WTC\Art\IconTextureAtlases_WTC.xml</UpdateDatabase>
       <UpdateDatabase>Prosperity\WTC\Code\WTC.sql</UpdateDatabase>
       <UpdateDatabase>Prosperity\WTC\Code\WTC_Text_en_US.xml</UpdateDatabase>
+
       <UpdateDatabase>Prosperity\FlowerClass\Art\ArtDefines.sql</UpdateDatabase>
       <UpdateDatabase>Prosperity\FlowerClass\Code\FlowerClass.sql</UpdateDatabase>
       <UpdateDatabase>Prosperity\FlowerClass\Code\FlowerClassText.xml</UpdateDatabase>
+
+      <UpdateDatabase>Prosperity\EPCOT\Code\EPCOT.sql</UpdateDatabase>
+      <UpdateDatabase>Prosperity\EPCOT\Code\EPCOTText.xml</UpdateDatabase>
+      <UpdateDatabase>Prosperity\EPCOT\Art\EPCOTAtlas.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
