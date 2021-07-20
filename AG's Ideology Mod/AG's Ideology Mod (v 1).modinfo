@@ -43,7 +43,6 @@
     <File import="0">Prosperity\WTC\Art\IconTextureAtlases_WTC.xml</File>
     <File import="0">Prosperity\WTC\Code\WTC_Text_en_US.xml</File>
     <File import="0">Prosperity\WTC\Code\WTC.sql</File>
-    <File import="1">Prosperity\WTC\Art\WTC_Splash.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC45.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC64.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC80.dds</File>

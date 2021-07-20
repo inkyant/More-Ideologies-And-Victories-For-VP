@@ -43,13 +43,6 @@ INSERT INTO Unit_ClassUpgrades
 SELECT	'UNIT_JFD_FLOWER_CLASS',	UnitClassType
 FROM Unit_ClassUpgrades WHERE UnitType = 'UNIT_DESTROYER';
 --------------------------------------------------------------------------------------------------------------------------
--- Unit_ResourceQuantityRequirements
---------------------------------------------------------------------------------------------------------------------------
-INSERT INTO Unit_ResourceQuantityRequirements
-		(UnitType, 					ResourceType, Cost)
-SELECT	'UNIT_JFD_FLOWER_CLASS',	ResourceType, Cost
-FROM Unit_ResourceQuantityRequirements WHERE UnitType = 'UNIT_DESTROYER';
---------------------------------------------------------------------------------------------------------------------------
 -- Unit_FreePromotions
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Unit_FreePromotions 	
