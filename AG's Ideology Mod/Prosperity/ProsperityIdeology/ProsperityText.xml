@@ -6,20 +6,20 @@
 			<text>Prosperity</text>
 		</Row>
     <Row Tag="TXT_KEY_POLICY_BRANCH_PROSPERITY_HELP">
-			<text>Prosperity</text>
+			<text>[COLOR_POSITIVE_TEXT]Prosperity</text>
 		</Row>
     <Row Tag="TXT_KEY_PROSPERITY_TITLE">
-			<text>Manager</text>
+			<text>Director {1_PlayerName:textkey} of {2_CivName:textkey}</text>
 		</Row>
 
     <Row Tag="TXT_KEY_POLICY_POP_ART">
       <text>Pop Art</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_POP_ART_HELP">
-      <text>Pop Art</text>
+      <text>[COLOR_POSITIVE_TEXT]Pop Art:[ENDCOLOR] 20% of [ICON_TOURISM] Tourism in Cities is converted into [ICON_GOLD] Gold. +5 [ICON_CULTURE] Culture and +3 [ICON_PRODUCTION] Production to Hotels, Stadiums, and Airports</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_POP_ART_PEDIA">
-      <text>Pop Art</text>
+      <text>Pop Art is popular art.</text>
     </Row>
     
     <Row Tag="TXT_KEY_POLICY_REGULATORY_CAPTURE">
