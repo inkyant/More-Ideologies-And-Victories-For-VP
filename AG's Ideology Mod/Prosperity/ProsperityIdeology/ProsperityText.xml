@@ -36,7 +36,7 @@
       <text>Lobbyists</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_LOBBYISTS_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Lobbyists:[ENDCOLOR] 5 :c5gold: Gold and 5 :c5culture: Culture per turn in your [ICON_CAPITAL] Capital for each Delegate you control in the World Congress. City State [ICON_INFLUENCE] Influence decays 25% more slowly.</text>
+			<text>[COLOR_POSITIVE_TEXT]Lobbyists:[ENDCOLOR] 5 [ICON_GOLD] Gold and 5 [ICON_CULTURE] Culture per turn in your [ICON_CAPITAL] Capital for each Delegate you control in the World Congress. City State [ICON_INFLUENCE] Influence decays 25% more slowly.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_LOBBYISTS_PEDIA">
       <text>Lobbyists</text>
@@ -46,7 +46,7 @@
       <text>Gospel of Wealth</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Gospel of Wealth:[ENDCOLOR] Great Merchants grant 200 [ICON_INFLUENCE] Influence from Diplomatic Actions. :c5gold: Gold investments in Buildings reduce their Production cost by an additional 10%.</text>
+			<text>[COLOR_POSITIVE_TEXT]Gospel of Wealth:[ENDCOLOR] Great Merchants grant 200 [ICON_INFLUENCE] Influence from Diplomatic Actions. [ICON_GOLD] Gold investments in Buildings reduce their Production cost by an additional 10%.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH_PEDIA">
       <text>Gospel of Wealth</text>
@@ -56,7 +56,7 @@
       <text>Insider Trading</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Insider Trading:[ENDCOLOR] +2 :trade: Trade Routes. Can establish :c5gold:Gold Internal :trade: Trade Routes. +5 :c5gold: Gold and :c5food: Food in your [ICON_CAPITAL] Capital for every Active :trade: Trade Route.</text>
+			<text>[COLOR_POSITIVE_TEXT]Insider Trading:[ENDCOLOR] +2 [ICON_SWAP] Trade Routes. Can establish [ICON_GOLD]Gold Internal [ICON_SWAP] Trade Routes. +5 [ICON_GOLD] Gold and [ICON_FOOD] Food in your [ICON_CAPITAL] Capital for every Active [ICON_SWAP] Trade Route.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING_PEDIA">
       <text>Insider Trading</text>
@@ -66,7 +66,7 @@
       <text>Too Big To Fail</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_TOO_BIG_TO_FAIL_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Too Big To Fail:[ENDCOLOR] +3 :c5gold: Gold to Banks, Stock Markets, Academies, Manufactories, Towns, Villages, and Unique Improvements. Academies, Towns, and Manufactories steal adjacent tiles when built.</text>
+			<text>[COLOR_POSITIVE_TEXT]Too Big To Fail:[ENDCOLOR] +3 [ICON_GOLD] Gold to Banks, Stock Markets, Academies, Manufactories, Towns, Villages, and Unique Improvements. Academies, Towns, and Manufactories steal adjacent tiles when built.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_TOO_BIG_TO_FAIL_PEDIA">
       <text>Too Big To Fail</text>
@@ -86,7 +86,7 @@
       <text>Brand Ambassador</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_BRAND_AMBASSADOR_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Brand Ambassador:[ENDCOLOR] Gain +1 Spy. Diplomats in Foreign [ICON_CAPITAL] Capitals act as 2 Corporate Franchises. +3 :c5production: Production from Corporate Offices.</text>
+			<text>[COLOR_POSITIVE_TEXT]Brand Ambassador:[ENDCOLOR] Gain +1 Spy. Diplomats in Foreign [ICON_CAPITAL] Capitals act as 2 Corporate Franchises. +3 [ICON_PRODUCTION] Production from Corporate Offices.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_BRAND_AMBASSADOR_PEDIA">
       <text>Brand Ambassador</text>
@@ -106,7 +106,7 @@
       <text>Panopticism</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PANOPTICISM_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Panopticism:[ENDCOLOR] +10% :c5culture: Culture and :c5science: Science in all Cities. City :c5unhappy: Unhappiness does not affect City yields ( :c5unhappy: Unhappiness still reduces :c5goldenage: Golden Age Progress, triggers rebellion, and stops settler production).</text>
+			<text>[COLOR_POSITIVE_TEXT]Panopticism:[ENDCOLOR] +10% [ICON_CULTURE] Culture and [ICON_RESEARCH] Science in all Cities. City [ICON_HAPPINESS_3] Unhappiness does not affect City yields ( [ICON_HAPPINESS_3] Unhappiness still reduces [ICON_GOLDEN_AGE] Golden Age Progress, triggers rebellion, and stops settler production).</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PANOPTICISM_PEDIA">
       <text>Panopticism</text>
@@ -116,7 +116,7 @@
       <text>Indigo Era</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INDIGO_ERA_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Indigo Era:[ENDCOLOR] Receive a Free Great Merchant and Great Scientist. +15% :c5science: Science during 'We Love the King Days'. 100 :c5gold: Gold when you discover a new Technology, Scaling with Era.</text>
+			<text>[COLOR_POSITIVE_TEXT]Indigo Era:[ENDCOLOR] Receive a Free Great Merchant and Great Scientist. +15% [ICON_RESEARCH] Science during 'We Love the King Days'. 100 [ICON_GOLD] Gold when you discover a new Technology, Scaling with Era.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INDIGO_ERA_PEDIA">
       <text>Indigo Era</text>
@@ -126,7 +126,7 @@
       <text>Corporate Personhood</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CORPORATE_PERSONHOOD_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Corporate Personhood:[ENDCOLOR] +33% Yields to all :trade: Trade Routes. Yields from Processes in all Cities are increased by 10%.</text>
+			<text>[COLOR_POSITIVE_TEXT]Corporate Personhood:[ENDCOLOR] +33% Yields to all [ICON_SWAP] Trade Routes. Yields from Processes in all Cities are increased by 10%.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CORPORATE_PERSONHOOD_PEDIA">
       <text>Corporate Personhood</text>
@@ -136,7 +136,7 @@
       <text>Company Towns</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_COMPANY_TOWNS_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Company Towns:[ENDCOLOR] +100% :c5production: Production towards Settler units. Settler Units claim all Resource tiles within 3 tiles, and Start with a free Factory.</text>
+			<text>[COLOR_POSITIVE_TEXT]Company Towns:[ENDCOLOR] +100% [ICON_PRODUCTION] Production towards Settler units. Settler Units claim all Resource tiles within 3 tiles, and Start with a free Factory.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_COMPANY_TOWNS_PEDIA">
       <text>Company Towns</text>
@@ -146,7 +146,7 @@
       <text>Evergreen Patents</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_EVERGREEN_PATENTS_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Evergreen Patents:[ENDCOLOR] Free Medical Lab in your :c5capital: Capital. +100% :c5production: Production towards Medical Labs on Empire. Research Labs and Medical Labs gain 5 :c5science: Science and 5 [ICON_GOLD] Gold.</text>
+			<text>[COLOR_POSITIVE_TEXT]Evergreen Patents:[ENDCOLOR] Free Medical Lab in your [ICON_CAPITAL] Capital. +100% [ICON_PRODUCTION] Production towards Medical Labs on Empire. Research Labs and Medical Labs gain 5 [ICON_RESEARCH] Science and 5 [ICON_GOLD] Gold.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_EVERGREEN_PATENTS_PEDIA">
       <text>Evergreen Patents</text>
@@ -156,7 +156,7 @@
       <text>Campaign Contributions</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Campaign Contributions:[ENDCOLOR] Can purchase Votes for the World Congress with :c5gold: Gold.</text>
+			<text>[COLOR_POSITIVE_TEXT]Campaign Contributions:[ENDCOLOR] Can purchase Votes for the World Congress with [ICON_GOLD] Gold.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS_PEDIA">
       <text>Campaign Contributions</text>
@@ -166,7 +166,7 @@
       <text>Horizontal Integration</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_HORIZONTAL_INTEGRATION_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Horizontal Integration:[ENDCOLOR] All Improved Luxury Resource tiles Provide 1 additional Resource copy. 20 :c5gold: Gold and :c5science: Science in the :c5capital: Capital for each Global Monopoly.</text>
+			<text>[COLOR_POSITIVE_TEXT]Horizontal Integration:[ENDCOLOR] All Improved Luxury Resource tiles Provide 1 additional Resource copy. 20 [ICON_GOLD] Gold and [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital for each Global Monopoly.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_HORIZONTAL_INTEGRATION_PEDIA">
       <text>Horizontal Integration</text>
@@ -176,7 +176,7 @@
       <text>Private Spaceflight</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Private Spaceflight:[ENDCOLOR] No limit to the number of Corporate Franchises on Empire. +2% :c5production: Production Towards Spaceship Parts in your :c5capital: Capital for every Corporate Franchise you control.</text>
+			<text>[COLOR_POSITIVE_TEXT]Private Spaceflight:[ENDCOLOR] No limit to the number of Corporate Franchises on Empire. +2% [ICON_PRODUCTION] Production Towards Spaceship Parts in your [ICON_CAPITAL] Capital for every Corporate Franchise you control.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_PEDIA">
       <text>Private Spaceflight</text>
