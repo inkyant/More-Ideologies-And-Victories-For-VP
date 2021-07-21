@@ -115,7 +115,7 @@
       <text>Panopticism</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PANOPTICISM_HELP">
-			<text>[COLOR_POSITIVE_TEXT]Panopticism:[ENDCOLOR] +10% [ICON_CULTURE] Culture and [ICON_RESEARCH] Science in all Cities. City [ICON_HAPPINESS_3] Unhappiness does not affect City yields ( [ICON_HAPPINESS_3] Unhappiness still reduces [ICON_GOLDEN_AGE] Golden Age Progress, triggers rebellion, and stops settler production).</text>
+			<text>[COLOR_POSITIVE_TEXT]Panopticism:[ENDCOLOR] +10% [ICON_CULTURE] Culture and [ICON_RESEARCH] Science in all Cities. City [ICON_HAPPINESS_3] Unhappiness does not affect City yields ([ICON_HAPPINESS_3] Unhappiness still reduces [ICON_GOLDEN_AGE] Golden Age Progress, triggers rebellion, and stops settler production).</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PANOPTICISM_PEDIA">
       <text>Panopticism</text>

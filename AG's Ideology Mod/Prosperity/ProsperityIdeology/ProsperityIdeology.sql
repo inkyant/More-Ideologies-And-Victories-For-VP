@@ -8,8 +8,8 @@ VALUES	('POLICY_BRANCH_PROSPERITY',	'TXT_KEY_POLICY_BRANCH_PROSPERITY',		'TXT_KE
 
 INSERT INTO Policies
 		(Type,								AllCityFreeBuilding,			Description,								Civilopedia,									Help,											PolicyBranchType,				CultureCost, Level, PortraitIndex, IconAtlas,           IconAtlasAchieved)
-VALUES	('POLICY_POP_ART',					'BUILDING_POP_ART',				'TXT_KEY_POLICY_POP_ART',					'TXT_KEY_POLICY_POP_ART_PEDIA',					'TXT_KEY_POLICY_POP_ART_HELP',					'POLICY_BRANCH_PROSPERITY',		10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
-		('POLICY_COMMODITIES_EXCHANGE',		'BUILDING_STOCK_EXCHANGE',		'TXT_KEY_POLICY_COMMODITIES_EXCHANGE',		'TXT_KEY_POLICY_COMMODITIES_EXCHANGE_PEDIA',	'TXT_KEY_POLICY_COMMODITIES_EXCHANGE_HELP',		'POLICY_BRANCH_PROSPERITY',		10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
+VALUES	('POLICY_POP_ART',					'BUILDINGCLASS_POP_ART',		'TXT_KEY_POLICY_POP_ART',					'TXT_KEY_POLICY_POP_ART_PEDIA',					'TXT_KEY_POLICY_POP_ART_HELP',					'POLICY_BRANCH_PROSPERITY',		10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
+		('POLICY_COMMODITIES_EXCHANGE',		'BUILDINGCLASS_STOCK_EXCHANGE',	'TXT_KEY_POLICY_COMMODITIES_EXCHANGE',		'TXT_KEY_POLICY_COMMODITIES_EXCHANGE_PEDIA',	'TXT_KEY_POLICY_COMMODITIES_EXCHANGE_HELP',		'POLICY_BRANCH_PROSPERITY',		10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_LOBBYISTS',				NULL,							'TXT_KEY_POLICY_LOBBYISTS',					'TXT_KEY_POLICY_LOBBYISTS_PEDIA',				'TXT_KEY_POLICY_LOBBYISTS_HELP',				'POLICY_BRANCH_PROSPERITY',		10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_GOSPEL_OF_WEALTH',			NULL,							'TXT_KEY_POLICY_GOSPEL_OF_WEALTH',			'TXT_KEY_POLICY_GOSPEL_OF_WEALTH_PEDIA',		'TXT_KEY_POLICY_GOSPEL_OF_WEALTH_HELP',			'POLICY_BRANCH_PROSPERITY',     10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_INSIDER_TRADING',			NULL,							'TXT_KEY_POLICY_INSIDER_TRADING',			'TXT_KEY_POLICY_INSIDER_TRADING_PEDIA',			'TXT_KEY_POLICY_INSIDER_TRADING_HELP',			'POLICY_BRANCH_PROSPERITY',     10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
@@ -30,10 +30,6 @@ VALUES	('POLICY_POP_ART',					'BUILDING_POP_ART',				'TXT_KEY_POLICY_POP_ART',		
 --------------------------------------------------------------------------------------------------------
 -- Pop Art 
 --------------------------------------------------------------------------------------------------------
-UPDATE Policies
-SET AllCityFreeBuilding = 'BUILDING_POP_ART'
-WHERE Type = 'POLICY_POP_ART';
-
 INSERT INTO BuildingClasses
         (Type,                      DefaultBuilding,    Description,                NoLimit)
 VALUES  ('BUILDINGCLASS_POP_ART',   'BUILDING_POP_ART', 'TXT_KEY_BUILDING_POP_ART',	1);
@@ -73,7 +69,7 @@ WHERE Type = 'POLICY_LOBBYISTS';
 --------------------------------------------------------------------------------------------------------
 -- Gospel of Wealth
 --------------------------------------------------------------------------------------------------------
-INSERT INTO Promotions
+INSERT INTO UnitPromotions
 		(Type,				Description,				Help,							Sound,				OrderPriority,	DiploMissionInfluence,	PortraitIndex,	IconAtlas,			PediaType,			PediaEntry)
 VALUES 	('PROMOTION_GOW',	'TXT_KEY_PROMOTION_GOW',	'TXT_KEY_PROMOTION_GOW_HELP',	'AS2D_IF_LEVELUP',	3, 				200,					41,				'PROMOTION_ATLAS',	'PEDIA_ATTRIBUTES',	'TXT_KEY_PROMOTION_GOW');
 
@@ -84,6 +80,10 @@ VALUES	('POLICY_GOSPEL_OF_WEALTH', 'PROMOTION_GOW');
 INSERT INTO UnitPromotions_CivilianUnitType
 		(PromotionType, 	UnitType)
 VALUES	('PROMOTION_GOW', 	'UNIT_MERCHANT');
+
+UPDATE Policies
+SET InvestmentModifier = '-10'
+WHERE Type = 'POLICY_GOSPEL_OF_WEALTH';
 
 --------------------------------------------------------------------------------------------------------
 -- Insider Trading
@@ -131,7 +131,7 @@ VALUES	('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_TRADING_POST', 			'YIELD_GOLD', 	
 -- Soft Power
 --------------------------------------------------------------------------------------------------------
 
-INSERT INTO Promotions
+INSERT INTO UnitPromotions
 		(Type,						Description,					Help,									Sound,				OrderPriority,	DiploMissionInfluence,	PortraitIndex,	IconAtlas,			PediaType,		PediaEntry)
 VALUES 	('PROMOTION_SOFT_POWER',	'TXT_KEY_PROMOTION_SOFT_POWER',	'TXT_KEY_PROMOTION_SOFT_POWER_HELP',	'AS2D_IF_LEVELUP',	3, 				30,						40,				'PROMOTION_ATLAS',	'PEDIA_DIPLO',	'TXT_KEY_PROMOTION_SOFT_POWER');
 
