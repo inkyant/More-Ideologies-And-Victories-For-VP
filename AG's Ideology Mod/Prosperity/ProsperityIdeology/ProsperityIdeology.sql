@@ -15,7 +15,7 @@ VALUES	('POLICY_POP_ART',					'BUILDING_POP_ART',				'TXT_KEY_POLICY_POP_ART',		
 		('POLICY_INSIDER_TRADING',			NULL,							'TXT_KEY_POLICY_INSIDER_TRADING',			'TXT_KEY_POLICY_INSIDER_TRADING_PEDIA',			'TXT_KEY_POLICY_INSIDER_TRADING_HELP',			'POLICY_BRANCH_PROSPERITY',     10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_TOO_BIG_TO_FAIL',			NULL,							'TXT_KEY_POLICY_TOO_BIG_TO_FAIL',			'TXT_KEY_POLICY_TOO_BIG_TO_FAIL_PEDIA',			'TXT_KEY_POLICY_TOO_BIG_TO_FAIL_HELP',			'POLICY_BRANCH_PROSPERITY',     10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_SOFT_POWER',				NULL,							'TXT_KEY_POLICY_SOFT_POWER',				'TXT_KEY_POLICY_SOFT_POWER_PEDIA',				'TXT_KEY_POLICY_SOFT_POWER_HELP',				'POLICY_BRANCH_PROSPERITY',     10,          1,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
-		('POLICY_BRAND_AMBASSADOR',		NULL,							'TXT_KEY_POLICY_BRAND_AMBASSADOR',		'TXT_KEY_POLICY_BRAND_AMBASSADOR_PEDIA',		'TXT_KEY_POLICY_BRAND_AMBASSADOR_HELP',		'POLICY_BRANCH_PROSPERITY',     10,          2,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
+		('POLICY_BRAND_AMBASSADOR',			NULL,							'TXT_KEY_POLICY_BRAND_AMBASSADOR',			'TXT_KEY_POLICY_BRAND_AMBASSADOR_PEDIA',		'TXT_KEY_POLICY_BRAND_AMBASSADOR_HELP',			'POLICY_BRANCH_PROSPERITY',     10,          2,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_TONNAGE_WAR',				NULL,							'TXT_KEY_POLICY_TONNAGE_WAR',				'TXT_KEY_POLICY_TONNAGE_WAR_PEDIA',				'TXT_KEY_POLICY_TONNAGE_WAR_HELP',				'POLICY_BRANCH_PROSPERITY',     10,          2,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_PANOPTICISM',				NULL,							'TXT_KEY_POLICY_PANOPTICISM',				'TXT_KEY_POLICY_PANOPTICISM_PEDIA',				'TXT_KEY_POLICY_PANOPTICISM_HELP',				'POLICY_BRANCH_PROSPERITY',     10,          2,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
 		('POLICY_INDIGO_ERA',				NULL,							'TXT_KEY_POLICY_INDIGO_ERA',				'TXT_KEY_POLICY_INDIGO_ERA_PEDIA',				'TXT_KEY_POLICY_INDIGO_ERA_HELP',				'POLICY_BRANCH_PROSPERITY',     10,          2,     10,            'POLICY_ATLAS_EXP2', 'POLICY_A_ATLAS_EXP2'),
@@ -56,5 +56,11 @@ VALUES	('POLICY_POP_ART',      	'BUILDINGCLASS_HOTEL',      'YIELD_CULTURE', 	5)
 		('POLICY_POP_ART',      	'BUILDINGCLASS_AIRPORT',	'YIELD_PRODUCTION', 3);
 
 --------------------------------------------------------------------------------------------------------
--- Regulatory Capture
+-- Commodities Exchange
+--------------------------------------------------------------------------------------------------------
+UPDATE Policies
+SET MinorResourceBonus = 1
+WHERE Type = 'POLICY_COMMODITIES_EXCHANGE';
+--------------------------------------------------------------------------------------------------------
+-- Lobbyists
 --------------------------------------------------------------------------------------------------------
