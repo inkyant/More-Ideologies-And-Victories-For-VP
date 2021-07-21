@@ -21,6 +21,9 @@
     <Row Tag="TXT_KEY_POLICY_POP_ART_PEDIA">
       <text>Pop Art is popular art.</text>
     </Row>
+    <Row Tag="TXT_KEY_BUILDING_POP_ART">
+      <text>Pop Art Dummy</text>
+    </Row>
     
     <Row Tag="TXT_KEY_POLICY_COMMODITIES_EXCHANGE">
       <text>Commodities Exchange</text>
@@ -50,6 +53,12 @@
     </Row>
     <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH_PEDIA">
       <text>Gospel of Wealth</text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GOW">
+      <text>Gospel of Wealth</text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GOW_HELP">
+      <text>Great Merchants grant 200 [ICON_INFLUENCE] from Diplomatic Actions.</text>
     </Row>
     
     <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING">

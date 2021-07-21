@@ -59,13 +59,13 @@ VALUES	('POLICY_POP_ART',      	'BUILDINGCLASS_HOTEL',      'YIELD_CULTURE', 	5)
 -- Commodities Exchange
 --------------------------------------------------------------------------------------------------------
 UPDATE Policies
-SET MinorResourceBonus = 1
+SET MinorResourceBonus = '1'
 WHERE Type = 'POLICY_COMMODITIES_EXCHANGE';
 --------------------------------------------------------------------------------------------------------
 -- Lobbyists
 --------------------------------------------------------------------------------------------------------
 UPDATE Policies
-SET MinorFriendshipDecayMod = -25
+SET MinorFriendshipDecayMod = '-25'
 WHERE Type = 'POLICY_LOBBYISTS';
 
 --TODO: add lua to give 5 Gold and 5 Culuture per turn in your Capital for each Delegate you control
@@ -85,23 +85,65 @@ INSERT INTO UnitPromotions_CivilianUnitType
 		(PromotionType, 	UnitType)
 VALUES	('PROMOTION_GOW', 	'UNIT_MERCHANT');
 
-INSERT INTO Building_HurryModifiers (BuildingType, HurryType, HurryCostModifier)
-SELECT 'BUILDING_FORBIDDEN_PALACE' , 'HURRY_GOLD' , '-15'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
-
 --------------------------------------------------------------------------------------------------------
 -- Insider Trading
 --------------------------------------------------------------------------------------------------------
+UPDATE Policies
+SET FreeTradeRoute = '2'
+WHERE Type = 'POLICY_INSIDER_TRADING';
+
+UPDATE Policies
+SET InternalTradeGold = '1'
+WHERE Type = 'POLICY_INSIDER_TRADING';
+
+--TODO: lua: +5:c5gold:Gold and :c5food:Food in your :c5capital: Capital for every Active :trade: Trade Route
 
 --------------------------------------------------------------------------------------------------------
 -- Too Big To Fail
 --------------------------------------------------------------------------------------------------------
+INSERT INTO Policy_BuildingClassYieldChanges
+		(PolicyType,				BuildingClassType,           	YieldType,   	YieldChange)
+VALUES	('POLICY_TOO_BIG_TO_FAIL',	'BUILDINGCLASS_BANK',			'YIELD_GOLD', 	3),
+		('POLICY_TOO_BIG_TO_FAIL',	'BUILDINGCLASS_STOCK_EXCHANGE',	'YIELD_GOLD', 	3);
+
+
+INSERT INTO Policy_ImprovementYieldChanges
+		(PolicyType,				ImprovementType, 					YieldType, 		Yield)
+VALUES	('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_TRADING_POST', 			'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_CUSTOMS_HOUSE', 		'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_ACADEMY', 				'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_MANUFACTORY', 			'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_TERRACE_FARM', 			'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_SPAIN_HACIENDA', 		'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_EKI', 					'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_KUNA', 					'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_ENCAMPMENT_SHOSHONE',	'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_POLDER', 				'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_CHATEAU', 				'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_KASBAH', 				'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_BRAZILWOOD_CAMP', 		'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_MOAI', 					'YIELD_GOLD', 	4),
+		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_FEITORIA', 				'YIELD_GOLD', 	4);
+
+--TODO: lua: Academies, Towns, and Manufactories steal adjacent tiles when built.
 
 --------------------------------------------------------------------------------------------------------
 -- Soft Power
 --------------------------------------------------------------------------------------------------------
 
---DLL: reduce purchase cooldown for units
+INSERT INTO Promotions
+		(Type,						Description,					Help,									Sound,				OrderPriority,	DiploMissionInfluence,	PortraitIndex,	IconAtlas,			PediaType,		PediaEntry)
+VALUES 	('PROMOTION_SOFT_POWER',	'TXT_KEY_PROMOTION_SOFT_POWER',	'TXT_KEY_PROMOTION_SOFT_POWER_HELP',	'AS2D_IF_LEVELUP',	3, 				30,						40,				'PROMOTION_ATLAS',	'PEDIA_DIPLO',	'TXT_KEY_PROMOTION_SOFT_POWER');
+
+INSERT INTO Policy_FreePromotions
+		(PolicyType, 				PromotionType)
+VALUES	('POLICY_SOFT_POWER', 'PROMOTION_SOFT_POWER');
+
+INSERT INTO UnitPromotions_UnitCombats
+		(PromotionType,				UnitCombatType)
+VALUES	('PROMOTION_SOFT_POWER',	'UNITCOMBAT_DIPLOMACY');
+
+--TODO: DLL: reduce purchase cooldown for units
 
 --------------------------------------------------------------------------------------------------------
 -- Brand Ambassador
@@ -115,7 +157,7 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDIN
 -- Panopticism
 --------------------------------------------------------------------------------------------------------
 
---DLL: disabling yield penalties
+--TODO: DLL: disabling yield penalties
 
 --------------------------------------------------------------------------------------------------------
 -- Indigo Era
