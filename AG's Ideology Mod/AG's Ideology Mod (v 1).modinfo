@@ -34,9 +34,11 @@
   <Files>
     <File import="1">ChooseIdeologyPopup.lua</File>
     <File import="1">SocialPolicyPopup.lua</File>
+    <File import="0">settings.sql</File>
 
     <File import="0">Prosperity\ProsperityIdeology\ProsperityIdeology.sql</File>
     <File import="0">Prosperity\ProsperityIdeology\ProsperityText.xml</File>
+    <File import="0">Prosperity\ProsperityIdeology\Prosperity.lua</File>
 	  <File import="1">Prosperity\ProsperitySplash.dds</File>
 
     <File import="0">Devotion\DevotionIdeology\DevotionIdeology.sql</File>
@@ -45,6 +47,7 @@
 
     <File import="0">Prosperity\WTC\Code\WTC_Text.xml</File>
     <File import="0">Prosperity\WTC\Code\WTC.sql</File>
+    <File import="0">Prosperity\WTC\Code\WTC_Votes.lua</File>
     <File import="0">Prosperity\WTC\Art\IconTextureAtlases_WTC.xml</File>
     <File import="1">Prosperity\WTC\Art\WTC45.dds</File>
     <File import="1">Prosperity\WTC\Art\WTC64.dds</File>
@@ -80,6 +83,8 @@
   </Files>
   <Actions>
     <OnModActivated>
+      <UpdateDatabase>settings.sql</UpdateDatabase>
+
       <UpdateDatabase>Prosperity\ProsperityIdeology\ProsperityIdeology.sql</UpdateDatabase>
       <UpdateDatabase>Prosperity\ProsperityIdeology\ProsperityText.xml</UpdateDatabase>
 
@@ -99,4 +104,16 @@
       <UpdateDatabase>Prosperity\EPCOT\Art\EPCOTAtlas.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Prosperity\WTC\Code\WTC_Votes.lua">
+      <Name>WTC_Votes</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Prosperity\ProsperityIdeology\Prosperity.lua">
+      <Name>Prosperity</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
 </Mod>

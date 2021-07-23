@@ -1,6 +1,5 @@
-
 --------------------------------------------------------------------------------------------------------
--- PolicyBranchTypes
+-- Tenets
 --------------------------------------------------------------------------------------------------------
 INSERT INTO PolicyBranchTypes
 		(Type,							Description,							Help,										Title,							EraPrereq,		PurchaseByLevel, AIDelayNoScience)
