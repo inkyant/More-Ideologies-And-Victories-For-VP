@@ -40,17 +40,17 @@ FROM ArtDefine_UnitMemberCombatWeapons WHERE UnitMemberType = 'ART_DEF_UNIT_MEMB
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ArtDefine_UnitMemberInfos 	
 		(Type, 									Scale,	ZOffset, Domain, Model, 			MaterialTypeTag, MaterialTypeSoundOverrideTag)
-SELECT	'ART_DEF_UNIT_MEMBER_JFD_FLOWER_CLASS',	Scale,	ZOffset, Domain, 'corvette.fxsxml',	MaterialTypeTag, MaterialTypeSoundOverrideTag
+SELECT	'ART_DEF_UNIT_MEMBER_JFD_FLOWER_CLASS',	Scale,	ZOffset, Domain, 'Triba_Class.fxsxml',	MaterialTypeTag, MaterialTypeSoundOverrideTag
 FROM ArtDefine_UnitMemberInfos WHERE Type = 'ART_DEF_UNIT_MEMBER_DESTROYER';		
 --------------------------------------------------------------------------------------------------------------------------
 -- IconTextureAtlases
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO IconTextureAtlases 
 		(Atlas, 								IconSize, 	Filename, 								IconsPerRow, 	IconsPerColumn)
-VALUES	('FLOWER_CLASS_ICON_ATLAS', 			256, 		'FlowerClass_256.dds',		            1, 				1),
-		('FLOWER_CLASS_ICON_ATLAS', 			128, 		'FlowerClass_128.dds',      	    	1, 				1),
-		('FLOWER_CLASS_ICON_ATLAS', 			80, 		'FlowerClass_080.dds',		            1, 				1),
-		('FLOWER_CLASS_ICON_ATLAS', 			64, 		'FlowerClass_064.dds',	            	1, 				1),
-		('FLOWER_CLASS_ICON_ATLAS', 			45, 		'FlowerClass_045.dds',		            1, 				1),
-		('FLOWER_CLASS_ICON_ATLAS', 			32, 		'FlowerClass_032.dds',		            1, 				1),
+VALUES	('FLOWER_CLASS_ICON_ATLAS', 			256, 		'FlowerClass2_256.dds',		            1, 				1),
+		('FLOWER_CLASS_ICON_ATLAS', 			128, 		'FlowerClass2_128.dds',      	    	1, 				1),
+		('FLOWER_CLASS_ICON_ATLAS', 			80, 		'FlowerClass2_080.dds',		            1, 				1),
+		('FLOWER_CLASS_ICON_ATLAS', 			64, 		'FlowerClass2_064.dds',	            	1, 				1),
+		('FLOWER_CLASS_ICON_ATLAS', 			45, 		'FlowerClass2_045.dds',		            1, 				1),
+		('FLOWER_CLASS_ICON_ATLAS', 			32, 		'FlowerClass2_032.dds',		            1, 				1),
 		('FLOWER_CLASS_UNIT_FLAG_ATLAS',		32, 		'FlowerClass_UnitFlagAtlas_32.dds',	    1, 				1);

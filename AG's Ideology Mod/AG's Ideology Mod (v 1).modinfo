@@ -60,15 +60,15 @@
     <File import="0">Prosperity\FlowerClass\Art\ArtDefines.sql</File>
     <File import="1">Prosperity\FlowerClass\Art\sv_FlowerClass.dds</File>
     <File import="1">Prosperity\FlowerClass\Art\FlowerClass_UnitFlagAtlas_32.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_045.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_064.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_080.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_128.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\FlowerClass_256.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\corvette_diff.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\corvette_sref.dds</File>
-    <File import="1">Prosperity\FlowerClass\Art\corvette.fxsxml</File>
-    <File import="1">Prosperity\FlowerClass\Art\Corvette.gr2</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass2_045.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass2_064.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass2_080.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass2_128.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\FlowerClass2_256.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\Triba_Class_gloss.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\Triba_Class.dds</File>
+    <File import="1">Prosperity\FlowerClass\Art\Triba_Class.fxsxml</File>
+    <File import="1">Prosperity\FlowerClass\Art\Triba_Class.gr2</File>
 
     <File import="0">Prosperity\EPCOT\Code\EPCOT.sql</File>
     <File import="0">Prosperity\EPCOT\Code\EPCOT_Text.xml</File>

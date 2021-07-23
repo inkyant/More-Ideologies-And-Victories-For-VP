@@ -124,8 +124,6 @@ VALUES	('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_TRADING_POST', 			'YIELD_GOLD', 	
 		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_MOAI', 					'YIELD_GOLD', 	4),
 		('POLICY_TOO_BIG_TO_FAIL', 'IMPROVEMENT_FEITORIA', 				'YIELD_GOLD', 	4);
 
---TODO: lua: Academies, Towns, and Manufactories steal adjacent tiles when built.
-
 --------------------------------------------------------------------------------------------------------
 -- Soft Power
 --------------------------------------------------------------------------------------------------------
