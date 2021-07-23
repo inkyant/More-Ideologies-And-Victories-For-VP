@@ -6,10 +6,10 @@
 			<text>Devotion</text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_DEVOTION_HELP">
-			<text>Prosperity</text>
+			<text>Devotion</text>
 		</Row>
     	<Row Tag="TXT_KEY_DEVOTION_TITLE">
-			<text>Supreme Ruler</text>
+			<text>Father {1_PlayerName:textkey} of {2_CivName:textkey}</text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_PILGRIMAGE">

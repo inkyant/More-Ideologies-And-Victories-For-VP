@@ -3,9 +3,8 @@
 -- UnitClasses
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO UnitClasses
-    (Type,                          Description,                         DefaultUnit)
-VALUES
-    ('UNITCLASS_JFD_FLOWER_CLASS',  'TXT_KEY_UNIT_JFD_FLOWER_CLASS',     'UNIT_JFD_FLOWER_CLASS');
+    	(Type,                          Description,                         DefaultUnit)
+VALUES	('UNITCLASS_JFD_FLOWER_CLASS',  'TXT_KEY_UNIT_JFD_FLOWER_CLASS',     'UNIT_JFD_FLOWER_CLASS');
 
 --------------------------------------------------------------------------------------------------------------------------
 -- Units
@@ -57,6 +56,5 @@ VALUES	('UNIT_JFD_FLOWER_CLASS',	'PROMOTION_SEE_INVISIBLE_SUBMARINE');
 -- Policy_UnitClassReplacements
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Policy_UnitClassReplacements
-	(PolicyType,            ReplacedUnitClassType,  ReplacementUnitClassType)
-VALUES
-	('POLICY_TONNAGE_WAR', 'UNITCLASS_DESTROYER',   'UNITCLASS_JFD_FLOWER_CLASS');
+		(PolicyType,            ReplacedUnitClassType,  ReplacementUnitClassType)
+VALUES	('POLICY_TONNAGE_WAR', 'UNITCLASS_DESTROYER',   'UNITCLASS_JFD_FLOWER_CLASS');

@@ -9,34 +9,37 @@
 			<text>Prosperity</text>
 		</Row>
     <Row Tag="TXT_KEY_PROSPERITY_TITLE">
-			<text>Manager</text>
+			<text>Director {1_PlayerName:textkey} of {2_CivName:textkey}</text>
 		</Row>
 
     <Row Tag="TXT_KEY_POLICY_POP_ART">
       <text>Pop Art</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_POP_ART_HELP">
-      <text>Pop Art</text>
+			<text>[COLOR_POSITIVE_TEXT]Pop Art:[ENDCOLOR] 20% of [ICON_TOURISM] Tourism in Cities is converted into [ICON_GOLD] Gold. +5 [ICON_CULTURE] Culture and +3 [ICON_PRODUCTION] Production to Hotels, Stadiums, and Airports.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_POP_ART_PEDIA">
-      <text>Pop Art</text>
+      <text>Pop Art is popular art.</text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_POP_ART">
+      <text>Pop Art Dummy</text>
     </Row>
     
-    <Row Tag="TXT_KEY_POLICY_REGULATORY_CAPTURE">
-      <text>Regulatory Capture</text>
+    <Row Tag="TXT_KEY_POLICY_COMMODITIES_EXCHANGE">
+      <text>Commodities Exchange</text>
     </Row>
-    <Row Tag="TXT_KEY_POLICY_REGULATORY_CAPTURE_HELP">
-      <text>Regulatory Capture</text>
+    <Row Tag="TXT_KEY_POLICY_COMMODITIES_EXCHANGE_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Commodities Exchange:[ENDCOLOR] Free Stock Exchange in all Cities. +100% quantity of Strategic and Luxury Resources from City-States. [ICON_HAPPINESS_1] Happiness from gifted Luxuries increased by 50%.</text>
     </Row>
-    <Row Tag="TXT_KEY_POLICY_REGULATORY_CAPTURE_PEDIA">
-      <text>Regulatory Capture</text>
+    <Row Tag="TXT_KEY_POLICY_COMMODITIES_EXCHANGE_PEDIA">
+      <text>Commodities Exchange</text>
     </Row>
     
     <Row Tag="TXT_KEY_POLICY_LOBBYISTS">
       <text>Lobbyists</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_LOBBYISTS_HELP">
-      <text>Lobbyists</text>
+			<text>[COLOR_POSITIVE_TEXT]Lobbyists:[ENDCOLOR] 5 [ICON_GOLD] Gold and 5 [ICON_CULTURE] Culture per turn in your [ICON_CAPITAL] Capital for each Delegate you control in the World Congress. City State [ICON_INFLUENCE] Influence decays 25% more slowly.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_LOBBYISTS_PEDIA">
       <text>Lobbyists</text>
@@ -46,17 +49,23 @@
       <text>Gospel of Wealth</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH_HELP">
-      <text>Gospel of Wealth</text>
+			<text>[COLOR_POSITIVE_TEXT]Gospel of Wealth:[ENDCOLOR] Great Merchants grant 200 [ICON_INFLUENCE] Influence from Diplomatic Actions. [ICON_GOLD] Gold investments in Buildings reduce their Production cost by an additional 10%.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_GOSPEL_OF_WEALTH_PEDIA">
       <text>Gospel of Wealth</text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GOW">
+      <text>Gospel of Wealth</text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GOW_HELP">
+      <text>Great Merchants grant 200 [ICON_INFLUENCE] from Diplomatic Actions.</text>
     </Row>
     
     <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING">
       <text>Insider Trading</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING_HELP">
-      <text>Insider Trading</text>
+			<text>[COLOR_POSITIVE_TEXT]Insider Trading:[ENDCOLOR] +2 [ICON_SWAP] Trade Routes. Can establish [ICON_GOLD]Gold Internal [ICON_SWAP] Trade Routes. +5 [ICON_GOLD] Gold and [ICON_FOOD] Food in your [ICON_CAPITAL] Capital for every Active [ICON_SWAP] Trade Route.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INSIDER_TRADING_PEDIA">
       <text>Insider Trading</text>
@@ -66,7 +75,7 @@
       <text>Too Big To Fail</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_TOO_BIG_TO_FAIL_HELP">
-      <text>Too Big To Fail</text>
+			<text>[COLOR_POSITIVE_TEXT]Too Big To Fail:[ENDCOLOR] +3 [ICON_GOLD] Gold to Banks, Stock Markets, Academies, Manufactories, Towns, Villages, and Unique Improvements. Academies, Towns, and Manufactories steal adjacent tiles when built.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_TOO_BIG_TO_FAIL_PEDIA">
       <text>Too Big To Fail</text>
@@ -76,27 +85,27 @@
       <text>Soft Power</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_SOFT_POWER_HELP">
-      <text>Soft Power</text>
+			<text>[COLOR_POSITIVE_TEXT]Soft Power:[ENDCOLOR] +30 [ICON_INFLUENCE] Influence for Diplomatic Mission Actions. Unit Purchase Cooldowns are reduced by 1 turn.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_SOFT_POWER_PEDIA">
       <text>Soft Power</text>
     </Row>
     
-    <Row Tag="TXT_KEY_POLICY_DIPLOMATIC_IMMUNITY">
-      <text>Diplomatic Immunity</text>
+    <Row Tag="TXT_KEY_POLICY_BRAND_AMBASSADOR">
+      <text>Brand Ambassador</text>
     </Row>
-    <Row Tag="TXT_KEY_POLICY_DIPLOMATIC_IMMUNITY_HELP">
-      <text>Diplomatic Immunity</text>
+    <Row Tag="TXT_KEY_POLICY_BRAND_AMBASSADOR_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Brand Ambassador:[ENDCOLOR] Gain +1 Spy. Diplomats in Foreign [ICON_CAPITAL] Capitals act as 2 Corporate Franchises. +3 [ICON_PRODUCTION] Production from Corporate Offices.</text>
     </Row>
-    <Row Tag="TXT_KEY_POLICY_DIPLOMATIC_IMMUNITY_PEDIA">
-      <text>Diplomatic Immunity</text>
+    <Row Tag="TXT_KEY_POLICY_BRAND_AMBASSADOR_PEDIA">
+      <text>Brand Ambassador</text>
     </Row>
     
     <Row Tag="TXT_KEY_POLICY_TONNAGE_WAR">
       <text>Tonnage War</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_TONNAGE_WAR_HELP">
-      <text>[COLOR_POSITIVE_TEXT]Tonnage War:[ENDCOLOR] Can build the [COLOR_YELLOW]Flower Class[ENDCOLOR]. +20 XP for all purchased units.</text>
+			<text>[COLOR_POSITIVE_TEXT]Tonnage War:[ENDCOLOR] Can build the [COLOR_YELLOW]Flower Class[ENDCOLOR]. +20 XP for all purchased units.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_TONNAGE_WAR_PEDIA">
       <text>Tonnage War!</text>
@@ -106,7 +115,7 @@
       <text>Panopticism</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PANOPTICISM_HELP">
-      <text>Panopticism</text>
+			<text>[COLOR_POSITIVE_TEXT]Panopticism:[ENDCOLOR] +10% [ICON_CULTURE] Culture and [ICON_RESEARCH] Science in all Cities. City [ICON_HAPPINESS_3] Unhappiness does not affect City yields ([ICON_HAPPINESS_3] Unhappiness still reduces [ICON_GOLDEN_AGE] Golden Age Progress, triggers rebellion, and stops settler production).</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PANOPTICISM_PEDIA">
       <text>Panopticism</text>
@@ -116,7 +125,7 @@
       <text>Indigo Era</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INDIGO_ERA_HELP">
-      <text>Indigo Era</text>
+			<text>[COLOR_POSITIVE_TEXT]Indigo Era:[ENDCOLOR] Receive a Free Great Merchant and Great Scientist. +15% [ICON_RESEARCH] Science during 'We Love the King Days'. 100 [ICON_GOLD] Gold when you discover a new Technology, Scaling with Era.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_INDIGO_ERA_PEDIA">
       <text>Indigo Era</text>
@@ -126,7 +135,7 @@
       <text>Corporate Personhood</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CORPORATE_PERSONHOOD_HELP">
-      <text>Corporate Personhood</text>
+			<text>[COLOR_POSITIVE_TEXT]Corporate Personhood:[ENDCOLOR] +33% Yields to all [ICON_SWAP] Trade Routes. Yields from Processes in all Cities are increased by 10%.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CORPORATE_PERSONHOOD_PEDIA">
       <text>Corporate Personhood</text>
@@ -136,27 +145,27 @@
       <text>Company Towns</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_COMPANY_TOWNS_HELP">
-      <text>Company Towns</text>
+			<text>[COLOR_POSITIVE_TEXT]Company Towns:[ENDCOLOR] +100% [ICON_PRODUCTION] Production towards Settler units. Settler Units claim all Resource tiles within 3 tiles, and Start with a free Factory.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_COMPANY_TOWNS_PEDIA">
       <text>Company Towns</text>
     </Row>
 
-    <Row Tag="TXT_KEY_POLICY_BIG_PHARMA">
-      <text>Big Pharma</text>
+    <Row Tag="TXT_KEY_POLICY_EVERGREEN_PATENTS">
+      <text>Evergreen Patents</text>
     </Row>
-    <Row Tag="TXT_KEY_POLICY_BIG_PHARMA_HELP">
-      <text>Big Pharma</text>
+    <Row Tag="TXT_KEY_POLICY_EVERGREEN_PATENTS_HELP">
+			<text>[COLOR_POSITIVE_TEXT]Evergreen Patents:[ENDCOLOR] Free Medical Lab in your [ICON_CAPITAL] Capital. +100% [ICON_PRODUCTION] Production towards Medical Labs on Empire. Research Labs and Medical Labs gain 5 [ICON_RESEARCH] Science and 5 [ICON_GOLD] Gold.</text>
     </Row>
-    <Row Tag="TXT_KEY_POLICY_BIG_PHARMA_PEDIA">
-      <text>Big Pharma</text>
+    <Row Tag="TXT_KEY_POLICY_EVERGREEN_PATENTS_PEDIA">
+      <text>Evergreen Patents</text>
     </Row>
 
     <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS">
       <text>Campaign Contributions</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS_HELP">
-      <text>Campaign Contributions</text>
+			<text>[COLOR_POSITIVE_TEXT]Campaign Contributions:[ENDCOLOR] Can purchase Votes for the World Congress with [ICON_GOLD] Gold.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_CAMPAIGN_CONTRIBUTIONS_PEDIA">
       <text>Campaign Contributions</text>
@@ -166,7 +175,7 @@
       <text>Horizontal Integration</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_HORIZONTAL_INTEGRATION_HELP">
-      <text>Horizontal Integration</text>
+			<text>[COLOR_POSITIVE_TEXT]Horizontal Integration:[ENDCOLOR] All Improved Luxury Resource tiles Provide 1 additional Resource copy. 20 [ICON_GOLD] Gold and [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital for each Global Monopoly.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_HORIZONTAL_INTEGRATION_PEDIA">
       <text>Horizontal Integration</text>
@@ -176,7 +185,7 @@
       <text>Private Spaceflight</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_HELP">
-      <text>Private Spaceflight</text>
+			<text>[COLOR_POSITIVE_TEXT]Private Spaceflight:[ENDCOLOR] No limit to the number of Corporate Franchises on Empire. +2% [ICON_PRODUCTION] Production Towards Spaceship Parts in your [ICON_CAPITAL] Capital for every Corporate Franchise you control.</text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_PEDIA">
       <text>Private Spaceflight</text>
