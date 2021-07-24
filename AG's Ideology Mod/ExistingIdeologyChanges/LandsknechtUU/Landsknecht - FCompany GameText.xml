@@ -1,0 +1,24 @@
+<GameData>
+	<Language_en_US>
+		<!--Free Company-->
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY">
+			<Text>Free Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FCOMPANY">
+			<Text>This Unit is much cheaper than the Pikeman, can pillage without using any movement points, and receives full XP from the City when purchased. Steals gold when attacking a City. May move immediately after purchase.[NEWLINE][NEWLINE]May only be purchased with [ICON_GOLD] Gold after completing the [COLOR_MAGENTA]Authority[ENDCOLOR] Policy Branch.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY_STRATEGY">
+			<Text>The Free Company are the first mercenary units made available by the completion of the Authority policy tree. Even though they can't be directly produced, they constitute a direct improvement in term of combat prowess over the Pikeman, while gaining some additionnal advantages.[NEWLINE][NEWLINE]Because they can move immediatly and with full experience when bought, you can field a large number of them very quickly if you have the gold. Furhtermore, these scoundrels benefit greatly from offensive warfare thanks to their ability to pillage without movement cost and gain gold whenever they inflict damages to cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FCOMPANY_TEXT">
+			<Text>Where opportunity meets warfare and lawlessness, the life of a soldier can quickly become that of a brigand.[NEWLINE][NEWLINE]The Free Companies, also known as Great Companies or Companies of Adventurers, were band of mercenary soldiers known to have operated throughout Europe from the 12th to the early 15th century. Often employed by nobles lacking manpower, they were famous for constantly ignoring the laws of arms, and thus remained convenient tools for the dirty work of medieval warfare. Sought after in time of conflict, they usually became a scourge in time of peace, when they stopped being paid and ended up ravaging the countryside of their former employers.[NEWLINE][NEWLINE]If some notable examples of these bands can be found throughout the 12th and 13th century (for example during the succession crisis known as the Anarchy or the wars led by Philipp II of France against John Lackland), they remain mostly famous for their role during the unending conflicts of the 14th century : first employed by the English army to terrorize French countryside, they were released after the Peace of Bretigny in 1360 and thus became even more uncontrollable. Going from fief to fief, pillaging farms and castles alike, they operated throughout western Europe and even managed to win against armies sent against them (e.g. : Battle of Brignais in 1362). The peace and the Black Death helped these bands grew and thus they quickly went abroad, gaining wealth and infamy : the White Company of John Hawkwood in Italy, the Catalan Company in Greece, the Tard-Venus in France, all helped a dreadful spreading of warfare and disease throughout Europe, their chiefs sometimes gaining important political positions if they weren't executed before (John Hawkwood, for example, an English landowner, ended up as a famously wealthy condottiere working for several Italian states or for the Pope himself).[NEWLINE][NEWLINE]The difficult rebuilding of Western European states during the 15th century slowly brought the end of Free Companies : even though some late examples stayed famous (like the écorcheurs, or "flayers", operating in France during the 1430's), the birth of true professional armies in western Europe helped the disbanding of these groups. Nonetheless, the destruction they brought remains a scar in European memory : with plague and war, they participated directly to the catastrophic loss of population in Europe between the 14th and the 15th century.</Text>
+		</Row>
+		<!--Doppelsödner promotion-->
+		<Row Tag="TXT_KEY_PROMOTION_DOPPELSODNER">
+			<Text>Doppelsödner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOPPELSODNER_HELP">
+			<Text>+30%[ICON_STRENGTH] Combat Strength when attacking Units at full health.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>		
