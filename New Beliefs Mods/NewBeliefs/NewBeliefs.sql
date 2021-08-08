@@ -11,6 +11,8 @@ VALUES	('BELIEF_GOD_OF_STORMS', 	'TXT_KEY_BELIEF_GOD_OF_STORMS',		'TXT_KEY_BELIE
 		('BELIEF_WARRIOR_MONKS', 	'TXT_KEY_BELIEF_WARRIOR_MONKS',		'TXT_KEY_BELIEF_WARRIOR_MONKS_SHORT', 	'TXT_KEY_BELIEF_WARRIOR_MONKS',		0, 			0, 			1, 			0, 			0,				0, 							0, 									0, 							0, 								0),
 		('BELIEF_SWEAT_LODGE', 		'TXT_KEY_BELIEF_SWEAT_LODGE',		'TXT_KEY_BELIEF_SWEAT_LODGE_SHORT', 	'TXT_KEY_BELIEF_SWEAT_LODGE',		0, 			0, 			1, 			0, 			0,				0, 							0, 									0, 							0, 								0),
 		('BELIEF_DAR_E_MEHR', 		'TXT_KEY_BELIEF_DAR_E_MEHR',		'TXT_KEY_BELIEF_DAR_E_MEHR_SHORT', 		'TXT_KEY_BELIEF_DAR_E_MEHR',		0, 			0, 			1, 			0, 			0,				0, 							0, 									0, 							0, 								0),
+		('BELIEF_DAOGUAN', 			'TXT_KEY_BELIEF_DAOGUAN',			'TXT_KEY_BELIEF_DAOGUAN_SHORT', 		'TXT_KEY_BELIEF_DAOGUAN',			0, 			0, 			1, 			0, 			0,				0, 							0, 									0, 							0, 								0),
+		('BELIEF_GURDWARA', 		'TXT_KEY_BELIEF_GURDWARA',			'TXT_KEY_BELIEF_GURDWARA_SHORT', 		'TXT_KEY_BELIEF_GURDWARA',			0, 			0, 			1, 			0, 			0,				0, 							0, 									0, 							0, 								0),
 		('BELIEF_EMIRATES', 		'TXT_KEY_BELIEF_EMIRATES',			'TXT_KEY_BELIEF_EMIRATES_SHORT', 		'TXT_KEY_BELIEF_EMIRATES',			0, 			0, 			0, 			1,			0,				200, 						200, 								0, 							0, 								0),
 		('BELIEF_ANIMISM', 			'TXT_KEY_BELIEF_ANIMISM',			'TXT_KEY_BELIEF_ANIMISM_SHORT', 		'TXT_KEY_BELIEF_ANIMISM',			0, 			0, 			0, 			1,			0,				0, 							0, 									0, 							0, 								0),
 		('BELIEF_ORTHODOXY', 		'TXT_KEY_BELIEF_ORTHODOXY',			'TXT_KEY_BELIEF_ORTHODOXY_SHORT', 		'TXT_KEY_BELIEF_ORTHODOXY',			0, 			0, 			0, 			0, 			1,				0, 							0, 									15, 						15, 							0);
@@ -20,6 +22,8 @@ INSERT INTO Belief_BuildingClassFaithPurchase
 VALUES	('BELIEF_REVELATION', 		'BUILDINGCLASS_RELIGIOUS_LIBRARY'),
 		('BELIEF_SWEAT_LODGE', 		'BUILDINGCLASS_SWEAT_LODGE'),
 		('BELIEF_DAR_E_MEHR', 		'BUILDINGCLASS_DAR_E_MEHR'),
+		('BELIEF_GURDWARA', 		'BUILDINGCLASS_GURDWARA'),
+		('BELIEF_DAOGUAN', 			'BUILDINGCLASS_DAOGUAN'),
 		('BELIEF_ORTHODOXY', 		'BUILDINGCLASS_COURTHOUSE'),
 		('BELIEF_ORTHODOXY', 		'BUILDINGCLASS_CONSTABLE'),
 		('BELIEF_ORTHODOXY', 		'BUILDINGCLASS_POLICE_STATION');
@@ -42,9 +46,9 @@ VALUES	('BELIEF_GOD_OF_STORMS', 	'YIELD_PRODUCTION', 15, 	0),
 ---------------------------------------------------------------------------------------------------------------------
 INSERT Into Belief_YieldFromTechUnlock
 		(BeliefType, 			YieldType, 					Yield, 	IsEraScaling)
-VALUES	('BELIEF_REVELATION', 	'YIELD_FAITH', 				1, 		0),
-		('BELIEF_REVELATION', 	'YIELD_CULTURE', 			1, 		0),
-		('BELIEF_REVELATION', 	'YIELD_GOLDEN_AGE_POINTS', 	1, 		0);
+VALUES	('BELIEF_REVELATION', 	'YIELD_FAITH', 				2, 		0),
+		('BELIEF_REVELATION', 	'YIELD_CULTURE', 			2, 		0),
+		('BELIEF_REVELATION', 	'YIELD_GOLDEN_AGE_POINTS', 	2, 		0);
 
 INSERT INTO BuildingClasses
 		(Type, 								Description, 							DefaultBuilding, 				MaxPlayerInstances)
@@ -72,19 +76,33 @@ VALUES		('BUILDING_RELIGIOUS_LIBRARY',	'TXT_KEY_THEMING_BONUS_RELIGIOUS_LIBRARY'
 INSERT INTO BuildingClasses 	
 		(Type, 							DefaultBuilding, 		Description)
 VALUES	('BUILDINGCLASS_SWEAT_LODGE', 	'BUILDING_SWEAT_LODGE', 'TXT_KEY_BUILDING_SWEAT_LODGE'),
-		('BUILDINGCLASS_DAR_E_MEHR', 	'BUILDING_DAR_E_MEHR', 	'TXT_KEY_BUILDING_DAR_E_MEHR');
+		('BUILDINGCLASS_DAR_E_MEHR', 	'BUILDING_DAR_E_MEHR', 	'TXT_KEY_BUILDING_DAR_E_MEHR'),
+		('BUILDINGCLASS_GURDWARA', 		'BUILDING_GURDWARA', 	'TXT_KEY_BUILDING_GURDWARA'),
+		('BUILDINGCLASS_DAOGUAN', 		'BUILDING_DAOGUAN', 	'TXT_KEY_BUILDING_DAOGUAN');
 
 UPDATE Beliefs SET Tooltip = 'TXT_KEY_BUILDING_SWEAT_LODGE_TOOLTIP' WHERE Type = 'BELIEF_SWEAT_LODGE';
 UPDATE Beliefs SET Tooltip = 'TXT_KEY_BUILDING_DAR_E_MEHR_TOOLTIP' WHERE Type = 'BELIEF_DAR_E_MEHR';
+UPDATE Beliefs SET Tooltip = 'TXT_KEY_BUILDING_GURDWARA_TOOLTIP' WHERE Type = 'BELIEF_GURDWARA';
+UPDATE Beliefs SET Tooltip = 'TXT_KEY_BUILDING_DAOGUAN_TOOLTIP' WHERE Type = 'BELIEF_DAOGUAN';
 
 INSERT INTO Buildings 	
 		(Type, 						BuildingClass, 					Description, 						Civilopedia, 							Strategy, 									Help,  									ReligiousPressureModifier, 	ConversionModifier, 	AlwaysHeal, Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, IconAtlas,	 			PortraitIndex)
-SELECT	'BUILDING_SWEAT_LODGE', 	'BUILDINGCLASS_SWEAT_LODGE', 	'TXT_KEY_BUILDING_SWEAT_LODGE', 	'TXT_KEY_BUILDING_SWEAT_LODGE_PEDIA', 	'TXT_KEY_BUILDING_SWEAT_LODGE_STRATEGY', 	'TXT_KEY_BUILDING_SWEAT_LODGE_HELP', 	20, 						-20, 					5, 			Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, 'NEW_BELIEFS_ATLAS', 	2
+SELECT	'BUILDING_SWEAT_LODGE', 	'BUILDINGCLASS_SWEAT_LODGE', 	'TXT_KEY_BUILDING_SWEAT_LODGE', 	'TXT_KEY_BUILDING_SWEAT_LODGE_PEDIA', 	'TXT_KEY_BUILDING_SWEAT_LODGE_STRATEGY', 	'TXT_KEY_BUILDING_SWEAT_LODGE_HELP', 	25, 						-10, 					5, 			Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, 'NEW_BELIEFS_ATLAS', 	2
 FROM Buildings WHERE Type = 'BUILDING_CHURCH';
 
 INSERT INTO Buildings 	
 		(Type, 					BuildingClass, 					Description, 					Civilopedia, 							Strategy, 									Help,  									ReligiousPressureModifier, 	ConversionModifier, GreatWorkSlotType, 				GreatWorkCount, Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, IconAtlas,	 			PortraitIndex)
-SELECT	'BUILDING_DAR_E_MEHR', 	'BUILDINGCLASS_DAR_E_MEHR', 	'TXT_KEY_BUILDING_DAR_E_MEHR', 	'TXT_KEY_BUILDING_DAR_E_MEHR_PEDIA', 	'TXT_KEY_BUILDING_DAR_E_MEHR_STRATEGY', 	'TXT_KEY_BUILDING_DAR_E_MEHR_HELP', 	30, 						-15, 				'GREAT_WORK_SLOT_ART_ARTIFACT', 1, 				Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, 'NEW_BELIEFS_ATLAS', 	1
+SELECT	'BUILDING_DAR_E_MEHR', 	'BUILDINGCLASS_DAR_E_MEHR', 	'TXT_KEY_BUILDING_DAR_E_MEHR', 	'TXT_KEY_BUILDING_DAR_E_MEHR_PEDIA', 	'TXT_KEY_BUILDING_DAR_E_MEHR_STRATEGY', 	'TXT_KEY_BUILDING_DAR_E_MEHR_HELP', 	25, 						-10, 				'GREAT_WORK_SLOT_ART_ARTIFACT', 1, 				Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, 'NEW_BELIEFS_ATLAS', 	1
+FROM Buildings WHERE Type = 'BUILDING_CHURCH';
+
+INSERT INTO Buildings 	
+		(Type, 					BuildingClass, 				Description, 					Civilopedia, 						Strategy, 								Help,  								ReligiousPressureModifier, 	ConversionModifier, GreatWorkSlotType, 			GreatWorkCount, BuildingDefenseModifier, 	Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, IconAtlas,	 		PortraitIndex)
+SELECT	'BUILDING_GURDWARA', 	'BUILDINGCLASS_GURDWARA', 	'TXT_KEY_BUILDING_GURDWARA', 	'TXT_KEY_BUILDING_GURDWARA_PEDIA', 	'TXT_KEY_BUILDING_GURDWARA_STRATEGY', 	'TXT_KEY_BUILDING_GURDWARA_HELP', 	25, 						-10, 				'GREAT_WORK_SLOT_MUSIC', 	1, 				10, 						Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, 'GURDWARA_ATLAS', 	0
+FROM Buildings WHERE Type = 'BUILDING_CHURCH';
+
+INSERT INTO Buildings 	
+		(Type, 					BuildingClass, 				Description, 					Civilopedia, 						Strategy, 								Help,  								ReligiousPressureModifier, 	ConversionModifier, GreatWorkSlotType, 			GreatWorkCount, GreatPeopleRateModifier, 	NoUnhappfromXSpecialists, 	Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, IconAtlas,	 		PortraitIndex)
+SELECT	'BUILDING_DAOGUAN', 	'BUILDINGCLASS_DAOGUAN', 	'TXT_KEY_BUILDING_DAOGUAN', 	'TXT_KEY_BUILDING_DAOGUAN_PEDIA', 	'TXT_KEY_BUILDING_DAOGUAN_STRATEGY', 	'TXT_KEY_BUILDING_DAOGUAN_HELP', 	25, 						-10, 				'GREAT_WORK_SLOT_WRITING', 	1, 				20, 						1, 							Cost, UnlockedByBelief, FaithCost, NukeImmune, ConquestProb, ArtDefineTag, MinAreaSize, 'COMMUNITY_ATLAS', 	24
 FROM Buildings WHERE Type = 'BUILDING_CHURCH';
 
 INSERT INTO Building_YieldChanges
@@ -95,24 +113,33 @@ VALUES	('BUILDING_RELIGIOUS_LIBRARY', 	'YIELD_FAITH', 				3),
 		('BUILDING_SWEAT_LODGE', 		'YIELD_FAITH', 				2),
 		('BUILDING_SWEAT_LODGE', 		'YIELD_SCIENCE', 			2),
 		('BUILDING_DAR_E_MEHR', 		'YIELD_FAITH', 				3),
-		('BUILDING_DAR_E_MEHR', 		'YIELD_CULTURE', 			2);
+		('BUILDING_DAR_E_MEHR', 		'YIELD_CULTURE', 			2),
+		('BUILDING_GURDWARA', 			'YIELD_FAITH', 				2),
+		('BUILDING_GURDWARA', 			'YIELD_FOOD', 				3),
+		('BUILDING_DAOGUAN', 			'YIELD_FAITH', 				5);
 
 INSERT INTO Building_Flavors
 	(BuildingType, FlavorType, Flavor)
 VALUES
-	('BUILDING_RELIGIOUS_LIBRARY', 	'FLAVOR_DEFENSE', 	10),
-	('BUILDING_RELIGIOUS_LIBRARY', 	'FLAVOR_SCIENCE', 	20),
-	('BUILDING_RELIGIOUS_LIBRARY', 	'FLAVOR_RELIGION', 	200),
-	('BUILDING_SWEAT_LODGE', 		'FLAVOR_DEFENSE', 	10),
-	('BUILDING_SWEAT_LODGE', 		'FLAVOR_SCIENCE', 	20),
-	('BUILDING_SWEAT_LODGE', 		'FLAVOR_RELIGION', 	30),
-	('BUILDING_DAR_E_MEHR', 		'FLAVOR_CULTURE', 	20),
-	('BUILDING_DAR_E_MEHR', 		'FLAVOR_RELIGION', 	40);
+	('BUILDING_RELIGIOUS_LIBRARY', 	'FLAVOR_DEFENSE', 		10),
+	('BUILDING_RELIGIOUS_LIBRARY', 	'FLAVOR_SCIENCE', 		20),
+	('BUILDING_RELIGIOUS_LIBRARY', 	'FLAVOR_RELIGION', 		200),
+	('BUILDING_SWEAT_LODGE', 		'FLAVOR_DEFENSE', 		10),
+	('BUILDING_SWEAT_LODGE', 		'FLAVOR_SCIENCE', 		20),
+	('BUILDING_SWEAT_LODGE', 		'FLAVOR_RELIGION', 		30),
+	('BUILDING_DAR_E_MEHR', 		'FLAVOR_CULTURE', 		20),
+	('BUILDING_DAR_E_MEHR', 		'FLAVOR_RELIGION', 		40),
+	('BUILDING_GURDWARA', 			'FLAVOR_DEFENSE', 		15),
+	('BUILDING_GURDWARA', 			'FLAVOR_GROWTH', 		25),
+	('BUILDING_GURDWARA', 			'FLAVOR_RELIGION', 		30),
+	('BUILDING_DAOGUAN', 			'FLAVOR_GREAT_PEOPLE', 	20),
+	('BUILDING_DAOGUAN', 			'FLAVOR_RELIGION', 		50);
 
 INSERT INTO Building_UnhappinessNeedsFlatReduction
 		(BuildingType, 				YieldType, 			Yield)
 VALUES	('BUILDING_SWEAT_LODGE',	'YIELD_PRODUCTION',	1),
-		('BUILDING_DAR_E_MEHR',		'YIELD_CULTURE',	1); 
+		('BUILDING_DAR_E_MEHR',		'YIELD_CULTURE',	1),
+		('BUILDING_GURDWARA',		'YIELD_PRODUCTION',	1); 
 
 INSERT INTO Building_ImprovementYieldChanges
 			(BuildingType, 				ImprovementType, 			YieldType, 			Yield)
@@ -122,6 +149,10 @@ VALUES		('BUILDING_SWEAT_LODGE', 	'IMPROVEMENT_CAMP',			'YIELD_SCIENCE', 	1),
 INSERT INTO Building_YieldFromYieldPercent
 			(BuildingType, 				YieldIn, 			YieldOut, 		Value)
 VALUES		('BUILDING_DAR_E_MEHR', 	'YIELD_CULTURE', 	'YIELD_FAITH', 	10);
+
+INSERT INTO Building_YieldModifiers
+		(BuildingType, 			YieldType, 		Yield)
+VALUES	('BUILDING_GURDWARA', 	'YIELD_FOOD', 	10);
 ---------------------------------------------------------------------------------------------------------------------
 -- Communalism --
 ---------------------------------------------------------------------------------------------------------------------
@@ -246,4 +277,9 @@ VALUES	('NewBeliefPromoAtlas', 		256, 		'PDanNewBeliefs_PI_256.dds', 	1, 				1),
 		('NEW_BELIEFS_ATLAS', 			80, 		'MoreBeliefs080.dds',			3, 				1),
 		('NEW_BELIEFS_ATLAS', 			64, 		'MoreBeliefs064.dds',			3, 				1),
 		('NEW_BELIEFS_ATLAS', 			45, 		'MoreBeliefs045.dds',			3, 				1),
-		('NEW_BELIEFS_ATLAS', 			32, 		'MoreBeliefs032.dds',			3, 				1);
+		('NEW_BELIEFS_ATLAS', 			32, 		'MoreBeliefs032.dds',			3, 				1),
+		('GURDWARA_ATLAS', 				256, 		'Gurdwara_256.dds',				1, 				1),
+		('GURDWARA_ATLAS', 				128, 		'Gurdwara_128.dds',				1, 				1),
+		('GURDWARA_ATLAS', 				80, 		'Gurdwara_080.dds',				1, 				1),
+		('GURDWARA_ATLAS', 				64, 		'Gurdwara_064.dds',				1, 				1),
+		('GURDWARA_ATLAS', 				45, 		'Gurdwara_045.dds',				1, 				1),;

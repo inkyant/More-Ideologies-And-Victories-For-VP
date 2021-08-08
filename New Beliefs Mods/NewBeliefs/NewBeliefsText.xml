@@ -60,13 +60,13 @@
 			<Text>A sweat lodge is a small domed hut used by various North American Indigenous cultures for dry heat sessions, similar to a sauna. The religious traditions surrounding these sessions, often referred to simpy as 'sweats', differ greatly between nations, but often include purification and initiation rituals.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE_STRATEGY">
-			<Text>Purchase this building to get a big boost to your [ICON_PEACE] Faith and make your units heal faster.</Text>
+			<Text>Can only be built in cities following a religion with the Sweat Lodges belief. Construct this building by purchasing it with [ICON_PEACE] Faith. This building and makes your units heal faster in the city, and boosts nearby Camps and Plantations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE_HELP">
-			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Distress. +20% Religious pressure and +20% Religious resistance in this city.[NEWLINE][NEWLINE]+1 [ICON_RESEARCH] Science to nearby Plantations and Camps. Units stationed in this city heal [COLOR_POSITIVE_TEXT]5 HP[ENDCOLOR] every turn, regardless of any actions taken.</Text>
+			<Text>-1 [ICON_HAPPINESS_3] Unhappiness from Distress. +25% Religious pressure and +10% Religious resistance in this city.[NEWLINE][NEWLINE]+1 [ICON_RESEARCH] Science to nearby Plantations and Camps. Units stationed in this city heal [COLOR_POSITIVE_TEXT]5 HP[ENDCOLOR] every turn, regardless of any actions taken.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SWEAT_LODGE_TOOLTIP">
-			<Text>+2 [ICON_PEACE] Faith[NEWLINE]+3 [ICON_RESEARCH] Science[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_SWEAT_LODGE_HELP}</Text>
+			<Text>+2 [ICON_PEACE] Faith[NEWLINE]+2 [ICON_RESEARCH] Science[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_SWEAT_LODGE_HELP}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAR_E_MEHR_SHORT">
 			<Text>Dar-e Mehr</Text>
@@ -81,13 +81,55 @@
 			<Text>The Zoroastrian Fire Temples, or Dar-e Mehr, were the centers of Persian religious life. Water and fire are honoured as the main components of ritual purification in Zoroatrianism. Fire, Atar, is held in special regard as the manifestation of Ahura Mazda, the singular creator god of Zoroastrianism. The altar inside the Dar-e Mehr is kept perpetually lit and purifying ash from the fire is used in the priests' various rituals.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR_HELP">
-			<Text>Reduces [ICON_HAPPINESS_3] Unhappiness from Distress. +30% Religious pressure and +15% Religious resistance in this city.[NEWLINE][NEWLINE]10% of [ICON_CULTURE] Culture created by the City counts as [ICON_PEACE] Faith Per Turn. Contains 1 slot for a [ICON_GREAT_WORK] Great Work of Art.</Text>
+			<Text>Reduces [ICON_HAPPINESS_3] Unhappiness from Boredom. +25% Religious pressure and +10% Religious resistance in this city.[NEWLINE][NEWLINE]10% of [ICON_CULTURE] Culture created by the City counts as [ICON_PEACE] Faith Per Turn. Contains 1 slot for a [ICON_GREAT_WORK] Great Work of Art.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR_STRATEGY">
-			<Text>The Dar-e Mehr offers modest Faith and Culture bonuses. Dar-e Mehr offers huge potential for faith generation</Text>
+			<Text>Can only be built in cities following a religion with the Dar-e Mehr belief. Construct this building by purchasing it with [ICON_PEACE] Faith. The Dar-e Mehr offers modest Faith and Culture bonuses. Dar-e Mehr offers huge potential for faith generation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DAR_E_MEHR_TOOLTIP">
 			<Text>+3 [ICON_PEACE] Faith[NEWLINE]+2 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_DAR_E_MEHR_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA_SHORT">
+			<Text>Gurdwaras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA">
+			<Text>Use [ICON_PEACE] Faith to purchase Gurdwaras.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA">
+			<Text>Gurdwara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_PEDIA">
+			<Text>A Gurdwara -- which means "door to the guru" -- is the place of worship for Sikhs. All gurdwaras contain the holy Sikh scripture, the Guru Granth Sahib, placed on an elevated platform. From this platform, a Raagis recites, sings, and explains the scripture for the congregation. The other universal feature of all gurdwaras is a community kitchen called a Langar. Sikhs place great importance on serving free vegetarian meals, allowing all community members, regardless of ethnicity, caste, status or religion, to both eat and volunteer free of charge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
+			<Text>Reduces [ICON_HAPPINESS_3] Unhappiness from Distress. +25% Religious pressure and +10% Religious resistance in this city.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food and +10% [ICON_STRENGTH] Defense in the City. Contains 1 slot for a [ICON_GREAT_WORK] Great Work of Music.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Gurdwaras belief. Construct this building by purchasing it with [ICON_PEACE] Faith. The Gurdwara offers bonuses towards Growth and Defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_TOOLTIP">
+			<Text>+3 [ICON_PEACE] Faith[NEWLINE]+2 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GURDWARA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAOGUAN_SHORT">
+			<Text>Daoguans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAOGUAN">
+			<Text>Use [ICON_PEACE] Faith to purchase Daoguans.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAOGUAN">
+			<Text>Daoguan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAOGUAN_PEDIA">
+			<Text>A Daoguan is a place of worship in Taoism. The structure and function of a Daoguan can vary according to the Taoist school the temple belongs to. For example, guan of the Quanzhen School are monasteries where celibate daoshi live.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAOGUAN_HELP">
+			<Text>+25% Religious pressure and +10% Religious resistance in this city.[NEWLINE][NEWLINE]+20% [ICON_GREAT_PEOPLE] Great People rate in City, and 1 Specialist in this City no longer produces [ICON_HAPPINESS_3] Unhappiness from Urbanization.[NEWLINE][NEWLINE]Contains 1 slot for a [ICON_GREAT_WORK] Great Work of Writing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAOGUAN_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Daoguans belief. Construct this building by purchasing it with [ICON_PEACE] Faith. The Daoguan offers bonuses towards Great People generation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAOGUAN_TOOLTIP">
+			<Text>+5 [ICON_PEACE] Faith[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GURDWARA_HELP}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM_SHORT">
 			<Text>Communalism</Text>
@@ -96,7 +138,7 @@
 			<Text>[ICON_FOOD] Food and [ICON_PRODUCTION] Production Internal Trade Routes generate +3 of their respective yields, Scaling with Era. +2 [ICON_PRODUCTION] Production if city has a Specialist</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_WARRIOR_MONKS_SHORT">
-			<Text>Warrior Monks</Text>
+			<Text>Martial Arts</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_WARRIOR_MONKS">
 			<Text>Melee and Gun Units trained in the City following this Religion gain the [COLOR_POSITIVE_TEXT]Warrior Monk[ENDCOLOR] Promotion.</Text>

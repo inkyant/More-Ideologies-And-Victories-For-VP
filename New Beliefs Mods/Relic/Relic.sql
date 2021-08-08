@@ -5,7 +5,6 @@ INSERT INTO Resources
 			(Type,				TechReveal,			TechObsolete, 		Description,				Civilopedia, 					ResourceClassType, 		ResourceUsage, 	AIObjective, 	AITradeModifier, ArtDefineTag, 			IconString, 		PortraitIndex, 	IconAtlas)
 VALUES		('RESOURCE_RELIC',	'TECH_AGRICULTURE',	'TECH_AGRICULTURE',	'TXT_KEY_RESOURCE_RELIC',	'TXT_KEY_RESOURCE_RELIC_TEXT',	'RESOURCECLASS_RUSH',	1, 				1, 				30,				'ART_DEF_RESOURCE_FUR',	'[ICON_RES_RELIC]',	0, 				'RESOURCE_RELIC_ATLAS');
 
---UPDATE Resources SET CivilizationType = 'CIVILIZATION_VISIGOTHS_MOD' WHERE Type = 'RESOURCE_RELIC';
 ------------------------------
 -- Resource_Flavors
 ------------------------------
@@ -35,12 +34,12 @@ VALUES		('RESOURCE_RELIC_ATLAS', 	256, 		'Relic_256.dds',	1, 				1),
 -- IconFontTextures
 ------------------------------
 INSERT INTO IconFontTextures 
-			(IconFontTexture, 					IconFontTextureFile)
-VALUES		('ICON_FONT_TEXTURE_GRAVE_GOODS', 	'RelicFontIcon_022');
+			(IconFontTexture, 			IconFontTextureFile)
+VALUES		('ICON_FONT_TEXTURE_RELIC', 'RelicFontIcon_022');
 ------------------------------	
 -- IconFontMapping
 ------------------------------
 INSERT INTO IconFontMapping 
-			(IconName, 					IconFontTexture,			IconMapping)
-VALUES		('ICON_RES_RELIC', 	'ICON_FONT_TEXTURE_GRAVE_GOODS',	1);
+			(IconName, 			IconFontTexture,			IconMapping)
+VALUES		('ICON_RES_RELIC', 	'ICON_FONT_TEXTURE_RELIC',	1);
 --==========================================================================================================================
