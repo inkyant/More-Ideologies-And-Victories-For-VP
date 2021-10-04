@@ -11,8 +11,16 @@ VALUES	('UNITCLASS_JFD_FLOWER_CLASS',  'TXT_KEY_UNIT_JFD_FLOWER_CLASS',     'UNI
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Units 	
 		(Type, 						Class,	                        CombatClass, PrereqTech, Cost,      Combat, RangedCombat, Range, FaithCost, RequiresFaithPurchaseEnabled, Moves, CivilianAttackPriority, Special, Domain, DefaultUnitAI,	Description, 						Help, 									Strategy, 									Civilopedia, 							ShowInPedia, Pillage, OneShotTourism, OneShotTourismPercentOthers, AdvancedStartCost, WorkRate, ObsoleteTech, MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, Mechanized, CombatLimit,  GoldenAgeTurns,  XPValueAttack, XPValueDefense, Conscription, MoveRate, UnitArtInfo, 					     UnitFlagAtlas, 					UnitFlagIconOffset,  IconAtlas,						PortraitIndex)
-SELECT	'UNIT_JFD_FLOWER_CLASS',	'UNITCLASS_JFD_FLOWER_CLASS',	CombatClass, PrereqTech, Cost-300,  Combat, RangedCombat, Range, FaithCost, RequiresFaithPurchaseEnabled, Moves, CivilianAttackPriority, Special, Domain, DefaultUnitAI,	'TXT_KEY_UNIT_JFD_FLOWER_CLASS',	'TXT_KEY_UNIT_JFD_FLOWER_CLASS_HELP', 	'TXT_KEY_UNIT_JFD_FLOWER_CLASS_STRATEGY',  	'TXT_KEY_UNIT_JFD_FLOWER_CLASS_TEXT',	ShowInPedia, Pillage, OneShotTourism, OneShotTourismPercentOthers, AdvancedStartCost, WorkRate, ObsoleteTech, MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, Mechanized, CombatLimit,  GoldenAgeTurns,  XPValueAttack, XPValueDefense, Conscription, MoveRate, 'ART_DEF_UNIT_JFD_FLOWER_CLASS',	 'FLOWER_CLASS_UNIT_FLAG_ATLAS',	0,					 'FLOWER_CLASS_ICON_ATLAS',	    0
+SELECT	'UNIT_JFD_FLOWER_CLASS',	'UNITCLASS_JFD_FLOWER_CLASS',	CombatClass, PrereqTech, Cost-300,  Combat+3, RangedCombat, Range, FaithCost, RequiresFaithPurchaseEnabled, Moves+2, CivilianAttackPriority, Special, Domain, DefaultUnitAI,	'TXT_KEY_UNIT_JFD_FLOWER_CLASS',	'TXT_KEY_UNIT_JFD_FLOWER_CLASS_HELP', 	'TXT_KEY_UNIT_JFD_FLOWER_CLASS_STRATEGY',  	'TXT_KEY_UNIT_JFD_FLOWER_CLASS_TEXT',	ShowInPedia, Pillage, OneShotTourism, OneShotTourismPercentOthers, AdvancedStartCost, WorkRate, ObsoleteTech, MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, Mechanized, CombatLimit,  GoldenAgeTurns,  XPValueAttack, XPValueDefense, Conscription, MoveRate, 'ART_DEF_UNIT_JFD_FLOWER_CLASS',	 'FLOWER_CLASS_UNIT_FLAG_ATLAS',	0,					 'FLOWER_CLASS_ICON_ATLAS',	    0
 FROM Units WHERE Type = 'UNIT_DESTROYER';  
+
+UPDATE Units 
+SET BaseLandAirDefense = '30' 
+WHERE Type = 'UNIT_JFD_FLOWER_CLASS';
+
+UPDATE Units 
+SET AirInterceptRange = '3' 
+WHERE Type = 'UNIT_JFD_FLOWER_CLASS';
 --------------------------------------------------------------------------------------------------------------------------
 -- UnitGameplay2DScripts
 --------------------------------------------------------------------------------------------------------------------------
@@ -57,4 +65,4 @@ VALUES	('UNIT_JFD_FLOWER_CLASS',	'PROMOTION_SEE_INVISIBLE_SUBMARINE');
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Policy_UnitClassReplacements
 		(PolicyType,            ReplacedUnitClassType,  ReplacementUnitClassType)
-VALUES	('POLICY_TONNAGE_WAR', 'UNITCLASS_DESTROYER',   'UNITCLASS_JFD_FLOWER_CLASS');
+VALUES	('POLICY_ECON_GLOBAL', 'UNITCLASS_DESTROYER',   'UNITCLASS_JFD_FLOWER_CLASS');

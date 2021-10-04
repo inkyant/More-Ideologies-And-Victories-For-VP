@@ -90,11 +90,15 @@ VALUES
 -- Peacekeeping Mission
 --------------------------------------------------------------------------------------------------------
 
+UPDATE Policies
+SET MilitaryUnitGiftExtraInfluence = '100'
+WHERE Type = 'POLICY_PEACEKEEPING';
 
 
 --------------------------------------------------------------------------------------------------------
 -- Corporate Espinage
 --------------------------------------------------------------------------------------------------------
+
 
 
 --------------------------------------------------------------------------------------------------------
@@ -106,15 +110,36 @@ VALUES
 -- Commodities Exchange
 --------------------------------------------------------------------------------------------------------
 
+INSERT INTO Policy_FreeBuilding
+	(PolicyType,				BuildingClassType,				Count)
+VALUES
+	('POLICY_COMMODITY_EXCH',	'BUILDINGCLASS_STOCK_EXCHANGE',	100);
+
 
 --------------------------------------------------------------------------------------------------------
 -- Research Grants
 --------------------------------------------------------------------------------------------------------
 
+UPDATE Policies
+SET NumFreeTechs = '1'
+WHERE Type = 'POLICY_RESEARCH_GRANTS';
+
+INSERT INTO Policy_BuildingClassYieldChanges
+	(PolicyType, BuildingClassType, YieldType, YieldChange)
+VALUES
+	('POLICY_RESEARCH_GRANTS', 'BUILDINGCLASS_UNIVERSITY', 'YIELD_SCIENCE', 3);
 
 --------------------------------------------------------------------------------------------------------
 -- Tourism Industry
 --------------------------------------------------------------------------------------------------------
+
+INSERT INTO Policy_BuildingClassYieldChanges
+	(PolicyType, BuildingClassType, YieldType, YieldChange)
+VALUES
+	('POLICY_TOURISM_INDUSTRY', 'BUILDINGCLASS_HOTEL', 	 'YIELD_TOURISM', 2),
+	('POLICY_TOURISM_INDUSTRY', 'BUILDINGCLASS_STADIUM', 'YIELD_TOURISM', 2),
+	('POLICY_TOURISM_INDUSTRY', 'BUILDINGCLASS_AIRPORT', 'YIELD_TOURISM', 2);
+
 
 
 --------------------------------------------------------------------------------------------------------
@@ -137,142 +162,86 @@ WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP';
 -- Lobbyists
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Lobbyists'
-WHERE Tag = 'TXT_KEY_POLICY_LOBBYIST';
-
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_LOBBYIST_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Lobbyists[ENDCOLOR]: Receive 600 [ICON_GOLD] instantly when you pass a proposal, scaling with era.'
-WHERE Tag = 'TXT_KEY_POLICY_LOBBYIST_HELP';
 
 --------------------------------------------------------------------------------------------------------
 -- Economic Globalization
 --------------------------------------------------------------------------------------------------------
+UPDATE Policies
+SET LandTradeRouteGoldChange = '1000'
+WHERE Type = 'POLICY_ECON_GLOBAL';
 
-UPDATE Language_en_US
-SET Text = 'Economic Globalization'
-WHERE Tag = 'TXT_KEY_POLICY_ECON_GLOBAL';
-
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_ECON_GLOBAL_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Economic Globalization[ENDCOLOR]: External Trade Routes generate +10 [ICON_GOLD] Gold. Each active Trade Route gives +2 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production to the Capital. [NEWLINE] Can build the Flower Class.'
-WHERE Tag = 'TXT_KEY_POLICY_ECON_GLOBAL_HELP';
+UPDATE Policies
+SET SeaTradeRouteGoldChange = '1000'
+WHERE Type = 'POLICY_ECON_GLOBAL';
 
 --------------------------------------------------------------------------------------------------------
 -- Shareholder Dividends
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Shareholder Dividends'
-WHERE Tag = 'TXT_KEY_POLICY_SHAREHOLDER_DIV';
+INSERT INTO Policy_BuildingClassYieldModifiers
+	(PolicyType, BuildingClassType, YieldType, YieldMod)
+VALUES
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_MARKET', 			'YIELD_GOLD', 5),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_MINT', 			'YIELD_GOLD', 5),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_BANK', 			'YIELD_GOLD', 5),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_STOCK_EXCHANGE', 	'YIELD_GOLD', 5);
 
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_SHAREHOLDER_DIV_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Shareholder Dividends[ENDCOLOR]: Markets, Custom Houses, Banks and Stock Exchanges generate +5% [ICON_GOLD] Gold each. +2 [ICON_GOLD] Gold from Corporate Offices.'
-WHERE Tag = 'TXT_KEY_POLICY_SHAREHOLDER_DIV_HELP';
+INSERT INTO Policy_BuildingClassYieldChanges
+	(PolicyType, BuildingClassType, YieldType, YieldChange)
+VALUES
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_TRADER_SIDS', 			'YIELD_GOLD', 2),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_HEXXON_REFINERY', 		'YIELD_GOLD', 2),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_GIORGIO_ARMEIER', 		'YIELD_GOLD', 2),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_FIRAXITE_MATERIALS', 		'YIELD_GOLD', 2),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_TWOKAY_FOODS', 			'YIELD_GOLD', 2),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_CIVILIZED_JEWELERS', 		'YIELD_GOLD', 2),
+	('POLICY_SHAREHOLDER_DIV', 'BUILDINGCLASS_LANDSEA_EXTRACTORS', 		'YIELD_GOLD', 2);
 
 --------------------------------------------------------------------------------------------------------
 -- Patent Office
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Patent Office'
-WHERE Tag = 'TXT_KEY_POLICY_PATENT_OFFICE';
 
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_PATENT_OFFICE_PEDIA';
 
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Patent Office[ENDCOLOR]: Specialists gain +2 [ICON_RESEARCH] Science. Research Lab, Medical Lab, Corporation Offices and Power Plants gain +2 [ICON_RESEARCH] Science and [ICON_GOLD] Gold.'
-WHERE Tag = 'TXT_KEY_POLICY_PATENT_OFFICE_HELP';
+
 
 --------------------------------------------------------------------------------------------------------
 -- Indigo Era
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Indigo Era'
-WHERE Tag = 'TXT_KEY_POLICY_INDIGO_ERA';
-
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_INDIGO_ERA_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Indigo Era[ENDCOLOR]: When you unlock a Policy, gain 200 [ICON_RESEARCH] Science, scaling with Era. +50 [ICON_PRODUCTION] Production in the Capital every time you research a Technology, scaling with Era.'
-WHERE Tag = 'TXT_KEY_POLICY_INDIGO_ERA_HELP';
+INSERT INTO Policy_YieldFromTech
+	(PolicyType, YieldType, Yield)
+VALUES
+	('POLICY_INDIGO_ERA', 'YIELD_PRODUCTION', 50);
 
 --------------------------------------------------------------------------------------------------------
 -- Corporate Tax Cut
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Corporate Tax Cut'
-WHERE Tag = 'TXT_KEY_POLICY_CORP_TAX_CUT';
-
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_CORP_TAX_CUT_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Corporate Tax Cut[ENDCOLOR]: Corporate Offices are maintenance free and each Franchise gives the Capital +2 [ICON_PRODUCTION] Production. +2 [ICON_GOLD] Gold from Corporate Offices.'
-WHERE Tag = 'TXT_KEY_POLICY_CORP_TAX_CUT_HELP';
+INSERT INTO Policy_BuildingClassYieldChanges
+	(PolicyType, BuildingClassType, YieldType, YieldChange)
+VALUES
+	('POLICY_CORP_TAX_CUT', 'BUILDINGCLASS_TRADER_SIDS', 			'YIELD_GOLD', 2),
+	('POLICY_CORP_TAX_CUT', 'BUILDINGCLASS_HEXXON_REFINERY', 		'YIELD_GOLD', 2),
+	('POLICY_CORP_TAX_CUT', 'BUILDINGCLASS_GIORGIO_ARMEIER', 		'YIELD_GOLD', 2),
+	('POLICY_CORP_TAX_CUT', 'BUILDINGCLASS_FIRAXITE_MATERIALS', 	'YIELD_GOLD', 2),
+	('POLICY_CORP_TAX_CUT', 'BUILDINGCLASS_TWOKAY_FOODS', 			'YIELD_GOLD', 2),
+	('POLICY_CORP_TAX_CUT', 'BUILDINGCLASS_CIVILIZED_JEWELERS', 	'YIELD_GOLD', 2),
+	('POLICY_CORP_TAX_CUT', 'BUILDINGCLASS_LANDSEA_EXTRACTORS', 	'YIELD_GOLD', 2);
 
 --------------------------------------------------------------------------------------------------------
 -- Foreign Direct Investment 
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Foreign Direct Investment'
-WHERE Tag = 'TXT_KEY_POLICY_FOREIGN_D_INVEST';
 
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_FOREIGN_D_INVEST_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Foreign Direct Investment[ENDCOLOR]: Can Purchase Votes for the World Congress with [ICON_GOLD] Gold.'
-WHERE Tag = 'TXT_KEY_POLICY_FOREIGN_D_INVEST_HELP';
 
 --------------------------------------------------------------------------------------------------------
 -- Horizontal Integration
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Horizontal Integration'
-WHERE Tag = 'TXT_KEY_POLICY_HORI_INTEGRATION';
 
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_HORI_INTEGRATION_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Horizontal Integration[ENDCOLOR]: All Improved Luxury Resource tiles provide 1 additional Resource copy. Luxuries obtained through Great Admiral can be used to obtain Global Monopoly too.'
-WHERE Tag = 'TXT_KEY_POLICY_HORI_INTEGRATION_HELP';
 
 --------------------------------------------------------------------------------------------------------
 -- Private Spaceflight
 --------------------------------------------------------------------------------------------------------
 
-UPDATE Language_en_US
-SET Text = 'Private Spaceflight'
-WHERE Tag = 'TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT';
-
-UPDATE Language_en_US
-SET Text = 'To be determined...'
-WHERE Tag = 'TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_PEDIA';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Private Spaceflight[ENDCOLOR]: Global Franchise maximum doubled. +2% [ICON_PRODUCTION] Production towards Spaceship Parts in your Capital for every Corporate Franchise you control and -1% [ICON_RESEARCH] Science cost for all Technologies per every 2 Corporate Franchises.'
-WHERE Tag = 'TXT_KEY_POLICY_PRIVATE_SPACEFLIGHT_HELP';
